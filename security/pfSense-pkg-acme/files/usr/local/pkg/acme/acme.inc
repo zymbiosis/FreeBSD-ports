@@ -690,6 +690,15 @@ $acme_domain_validation_method['dns_easydns'] = array('name' => "DNS-easyDNS",
 			'description' => "easyDNS API Token"
 		)
 	));
+$acme_domain_validation_method['dns_enom'] = array('name' => "DNS-enom",
+	'fields' => array(
+		'ENOM_Username' => array('name' => "enom_username", 'columnheader' => "Username", 'type' => "textbox",
+			'description' => "Enom Username"
+		),
+		'ENOM_Password' => array('name' => "enom_password", 'columnheader' => "Password", 'type' => "password",
+			'description' => "Enom API Token"
+		)
+	));
 $acme_domain_validation_method['dns_euserv'] = array('name' => "DNS-Euserv.eu",
 	'fields' => array(
 		'EUSERV_Username' => array('name' => "euserv_username", 'columnheader' => "Username", 'type' => "textbox",
