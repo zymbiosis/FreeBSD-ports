@@ -1,5 +1,3 @@
-# Created by: Patrick Seal <patseal@hyperhost.net>
-
 PORTNAME=	boxes
 PORTVERSION=	1.3
 DISTVERSIONPREFIX=	v
@@ -7,6 +5,7 @@ CATEGORIES=	misc
 
 MAINTAINER=	olgeni@FreeBSD.org
 COMMENT=	Draws ASCII-art configurable boxes around text or code
+WWW=		https://boxes.thomasjensen.com/
 
 LICENSE=	GPLv2
 

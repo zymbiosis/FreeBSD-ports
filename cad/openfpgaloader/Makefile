@@ -1,10 +1,12 @@
 PORTNAME=	openfpgaloader
 DISTVERSIONPREFIX=	v
-DISTVERSION=	0.8.0
+DISTVERSION=	0.9.0
+PORTREVISION=	1
 CATEGORIES=	cad
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Universal utility for programming FPGA
+WWW=		https://github.com/trabucayre/openFPGALoader
 
 LICENSE=	AGPLv3
 LICENSE_FILE=	${WRKSRC}/LICENSE

@@ -1,5 +1,3 @@
-# Created by: Henrik Hodne <henrik@hodne.io>
-
 PORTNAME=	App-Sqitch
 PORTVERSION=	0.9994
 PORTREVISION=	1
@@ -10,6 +8,7 @@ PKGNAMEPREFIX=	p5-
 
 MAINTAINER=	henrik@hodne.io
 COMMENT=	Sane database change management
+WWW=		https://metacpan.org/release/App-Sqitch
 
 LICENSE=	MIT
 

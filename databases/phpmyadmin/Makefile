@@ -1,5 +1,3 @@
-# Created by: nbm
-
 PORTNAME=	phpMyAdmin
 DISTVERSION=	4.9.10
 CATEGORIES=	databases www
@@ -9,11 +7,12 @@ PKGNAMESUFFIX=	${PHP_PKGNAMESUFFIX}
 
 MAINTAINER=	joneum@FreeBSD.org
 COMMENT=	Set of PHP-scripts to manage MySQL over the web
+WWW=		https://www.phpmyadmin.net/
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-CONFLICTS_INSTALL=	phpmyadmin5
+CONFLICTS_INSTALL=	phpMyAdmin-php[0-9][0-9] phpMyAdmin[0-9]-php[0-9][0-9] # www/phpMyAdmin/CONTRIBUTING.md
 
 USES=		cpe php:web,flavors tar:xz
 CPE_PRODUCT=	${PORTNAME:tl}

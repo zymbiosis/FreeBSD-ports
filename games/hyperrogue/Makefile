@@ -1,10 +1,12 @@
 PORTNAME=	hyperrogue
-PORTVERSION=	12.0s
+PORTVERSION=	12.0u
 DISTVERSIONPREFIX=	v
 CATEGORIES=	games
 
 MAINTAINER=	amdmi3@FreeBSD.org
 COMMENT=	Roguelike in a non-euclidean world
+WWW=		https://roguetemple.com/z/hyper/ \
+		https://github.com/zenorogue/hyperrogue
 
 LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/COPYING

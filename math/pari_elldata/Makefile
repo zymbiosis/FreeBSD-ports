@@ -1,5 +1,3 @@
-# Created by: thierry@pompo.net
-
 PORTNAME=	elldata
 DISTVERSION=	2021-03-21
 CATEGORIES=	math
@@ -10,6 +8,7 @@ DIST_SUBDIR=	${PKGNAMEPREFIX}${PORTNAME}/${DISTVERSION}
 
 MAINTAINER=	thierry@FreeBSD.org
 COMMENT=	Elliptic Curve Data for PARI/GP
+WWW=		https://pari.math.u-bordeaux.fr/packages.html
 
 LICENSE=	ART20
 

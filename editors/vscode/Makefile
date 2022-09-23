@@ -1,6 +1,6 @@
 PORTNAME=	vscode
-DISTVERSION=	1.68.1
-PORTREVISION=	1
+DISTVERSION=	1.70.2
+PORTREVISION=	2
 CATEGORIES=	editors
 MASTER_SITES=	https://registry.npmjs.org/esbuild-freebsd-64/-/:esbuild_binary \
 		https://nodejs.org/dist/v${NODE_VER}/:node_headers \
@@ -18,6 +18,7 @@ EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX} \
 
 MAINTAINER=	tagattie@FreeBSD.org
 COMMENT=	Visual Studio Code - Open Source ("Code - OSS")
+WWW=		https://code.visualstudio.com/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
@@ -45,6 +46,7 @@ LIB_DEPENDS=	libatk-bridge-2.0.so:accessibility/at-spi2-atk \
 		liblcms2.so:graphics/lcms2 \
 		libdrm.so:graphics/libdrm \
 		libpng.so:graphics/png \
+		libwayland-client.so:graphics/wayland \
 		libwebp.so:graphics/webp \
 		libvpx.so:multimedia/libvpx \
 		libopenh264.so:multimedia/openh264 \
@@ -69,7 +71,7 @@ USES=		desktop-file-utils gl gmake gnome iconv jpeg pkgconfig \
 USE_GITHUB=	yes
 GH_ACCOUNT=	microsoft
 
-SOURCE_COMMIT_HASH=	30d9c6cd9483b2cc586687151bcbcd635f373630
+SOURCE_COMMIT_HASH=	e4503b30fc78200f846c62cf8091b76ff5547662
 
 BINARY_ALIAS=	python=${PYTHON_CMD}
 
@@ -81,7 +83,7 @@ USE_GNOME=	atk cairo pango gdkpixbuf2 gtk30 libxml2 libxslt
 USE_LDCONFIG=	${DATADIR}
 
 # See ${WRKSRC}/remote/.yarnrc for NODE_VER
-NODE_VER=	16.13.0
+NODE_VER=	16.13.2
 NODE_VER_MAJOR=	${NODE_VER:C/\..*$//}
 # See ${WRKSRC}/build/package.json for ESBUILD_VER_BUILD
 ESBUILD_VER_BUILD=	0.14.2
@@ -104,7 +106,7 @@ MAKE_ENV+=	PLAYWRIGHT_BROWSERS_PATH=${WRKDIR}/pw-browsers \
 # This is a workaround to avoid filesystem violations during poudriere build
 MAKE_ENV+=	PYTHONDONTWRITEBYTECODE=1
 
-ELECTRON_DIR=	${.CURDIR}/../../devel/electron17
+ELECTRON_DIR=	${.CURDIR}/../../devel/electron18
 .include	"${ELECTRON_DIR}/Makefile.version"
 
 ELECTRON_DOWNLOAD_URL=	https://github.com/electron/electron/releases/download/v${ELECTRON_VER}

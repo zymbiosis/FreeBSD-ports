@@ -6,6 +6,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Classical potentials for MD with ASE
+WWW=		https://wiki.fysik.dtu.dk/asap
 
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -19,6 +20,6 @@ USES=		localbase python:3.7+
 USE_PYTHON=	distutils concurrent autoplist pytest
 
 post-install:
-	@${STRIP_CMD} ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}/_asap.cpython-38.so
+	@${STRIP_CMD} ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}/_asap.cpython-${PYTHON_SUFFIX}.so
 
 .include <bsd.port.mk>

@@ -1,5 +1,3 @@
-# Created by: Robert Withrow <witr@rwwa.com>
-
 PORTNAME=	Hyperlatex
 DISTVERSION=	2.9a
 PORTREVISION=	15
@@ -9,6 +7,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Produce HTML and printed documents from LaTeX source
+WWW=		http://hyperlatex.sourceforge.net/
 
 RUN_DEPENDS=	ppmtogif:graphics/netpbm
 

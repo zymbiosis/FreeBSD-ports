@@ -1,5 +1,3 @@
-# Created by: Arun Sharma <arun@sharma-home.net>
-
 PORTNAME=	onetbb
 PORTVERSION=	2021.5.0
 DISTVERSIONPREFIX=	v
@@ -7,6 +5,7 @@ CATEGORIES=	devel
 
 MAINTAINER=	martymac@FreeBSD.org
 COMMENT=	Library that provides thread building blocks
+WWW=		https://software.intel.com/oneapi/onetbb
 
 LICENSE=	APACHE20
 

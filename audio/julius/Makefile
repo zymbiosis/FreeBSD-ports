@@ -1,5 +1,3 @@
-# Created by: numisemis at yahoo dot com
-
 PORTNAME=	julius
 PORTVERSION=	4.1.2
 PORTREVISION=	2
@@ -8,6 +6,7 @@ MASTER_SITES=	OSDN/julius
 
 MAINTAINER=	numisemis@yahoo.com
 COMMENT=	Large Vocabulary Continuous Speech Recognition Engine
+WWW=		http://julius.sourceforge.jp/en_index.php
 
 BUILD_DEPENDS=	ja-p5-Jcode>=0:japanese/p5-Jcode
 RUN_DEPENDS=	ja-p5-Jcode>=0:japanese/p5-Jcode
@@ -16,7 +15,7 @@ GNU_CONFIGURE=	yes
 USES=		iconv perl5 shebangfix
 SHEBANG_FILES=	jclient-perl/jclient.pl
 
-CONFLICTS_INSTALL=	generate julius-caesariii php*-pear-Text_Highlighter # bin/generate bin/julius
+CONFLICTS_INSTALL=	generate # bin/generate bin/julius
 
 CONFIGURE_ENV=	ac_cv_path_PERL=${PERL}
 CPPFLAGS+=	-I${LOCALBASE}/include

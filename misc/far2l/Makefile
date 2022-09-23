@@ -1,5 +1,3 @@
-# Created by: Alexey Dokuchaev <danfe@FreeBSD.org>
-
 PORTNAME=	far2l
 PORTVERSION=	2.4.0
 DISTVERSIONPREFIX=	v_
@@ -11,6 +9,7 @@ PATCHFILES=	f49e2475f7eba50d3d5c.patch:-p1 c99fbdb382250828d974.patch:-p1
 
 MAINTAINER=	danfe@FreeBSD.org
 COMMENT=	Port of FAR v2 to Unix-like systems
+WWW=		https://github.com/elfmz/far2l
 
 LICENSE=	GPLv2
 

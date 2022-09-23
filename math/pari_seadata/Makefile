@@ -1,5 +1,3 @@
-# Created by: thierry@pompo.net
-
 PORTNAME=	seadata
 DISTVERSION=	2009-06-18
 PORTREVISION=	1
@@ -11,6 +9,7 @@ DIST_SUBDIR=	${PKGNAMEPREFIX}${PORTNAME}/${DISTVERSION}
 
 MAINTAINER=	thierry@FreeBSD.org
 COMMENT=	Modular polynomials for PARI/GP
+WWW=		https://pari.math.u-bordeaux.fr/packages.html
 
 LICENSE=	GPLv2
 

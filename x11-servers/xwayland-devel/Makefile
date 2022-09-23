@@ -1,17 +1,19 @@
 PORTNAME=	xwayland
 DISTVERSIONPREFIX=	xorg-server-
-DISTVERSION=	21.0.99.1-211
-DISTVERSIONSUFFIX=	-gb9b33d88e
+DISTVERSION=	21.0.99.1-286
+DISTVERSIONSUFFIX=	-ga77d95af6
 CATEGORIES=	x11-servers
 PKGNAMESUFFIX=	-devel
 
 PATCH_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/commit/
-PATCHFILES+=	42e34498f87a.patch:-p1 # https://gitlab.freedesktop.org/xorg/xserver/-/merge_requests/432
-PATCHFILES+=	0d56c27582a2.patch:-p1 # https://gitlab.freedesktop.org/xorg/xserver/-/merge_requests/432
-PATCHFILES+=	1f7b28547011.patch:-p1 # https://gitlab.freedesktop.org/xorg/xserver/-/merge_requests/432
+PATCHFILES+=	38be22990fbf.patch:-p1 # https://gitlab.freedesktop.org/xorg/xserver/-/merge_requests/960
+PATCHFILES+=	537acb3eb02f.patch:-p1 # https://gitlab.freedesktop.org/xorg/xserver/-/merge_requests/432
+PATCHFILES+=	9e1ea1442d7f.patch:-p1 # https://gitlab.freedesktop.org/xorg/xserver/-/merge_requests/432
+PATCHFILES+=	74813b4c09ca.patch:-p1 # https://gitlab.freedesktop.org/xorg/xserver/-/merge_requests/432
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	X11 server as Wayland client (development snapshot)
+WWW=		https://wayland.freedesktop.org/xserver.html
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
@@ -34,18 +36,21 @@ USE_GL=		gbm gl
 USE_XORG=	pixman xau xdmcp xfont2 xkbfile xshmfence xtrans
 GH_ACCOUNT=	freedesktop
 GH_PROJECT=	xorg-xserver
+GH_TUPLE=	freedesktop:xorg-xorgproto:xorgproto-2022.2:xorgproto/subprojects/xorgproto
 MESON_ARGS=	-D${PORTNAME}=true \
 		-Dxorg=false \
 		-Dxnest=false \
 		-Dxvfb=false \
 		-Dudev=false \
 		-Dudev_kms=false \
+		-Dxcsecurity=true \
 		-Ddefault_font_path="${DEFAULT_FONTPATH_LIST:ts,}"
 PLIST_FILES=	bin/Xwayland \
 		"@comment lib/xorg/protocol.txt" \
 		libdata/pkgconfig/xwayland.pc \
 		"@comment man/man1/Xserver.1.gz" \
-		man/man1/Xwayland.1.gz
+		man/man1/Xwayland.1.gz \
+		share/applications/org.freedesktop.Xwayland.desktop
 
 # Keep in sync with xorg-server
 FONTPATH_ROOT?=	${LOCALBASE}/share/fonts
@@ -59,10 +64,24 @@ DEFAULT_FONTPATH_LIST= \
 	${FONTPATH_ROOT}/75dpi/ \
 	catalogue:${FONTPATHD}
 
-OPTIONS_DEFINE=	NVIDIA
+OPTIONS_DEFINE=	CSD NVIDIA
+OPTIONS_DEFAULT=CSD
+
+CSD_DESC=		Client-side decorations via libdecor
+CSD_LIB_DEPENDS=	libdecor-0.so:x11-toolkits/libdecor
+CSD_MESON_TRUE=		libdecor
 
 NVIDIA_DESC=		EGLStream support for glamor on Xwayland
 NVIDIA_BUILD_DEPENDS=	egl-wayland>0:graphics/egl-wayland
 NVIDIA_MESON_TRUE=	xwayland_eglstream
+
+.ifdef GH_TUPLE
+post-install:
+# XXX USES=meson invokes ninja directly, so doesn't support --skip-subprojects
+	@${RM} -r ${STAGEDIR}${PREFIX}/include/GL
+	@${RM} -r ${STAGEDIR}${PREFIX}/include/X11
+	@${RM} -r ${STAGEDIR}${PREFIX}/share/doc/xorgproto
+	@${RM} -r ${STAGEDIR}${PREFIX}/share/pkgconfig
+.endif
 
 .include <bsd.port.mk>

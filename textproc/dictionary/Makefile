@@ -1,5 +1,3 @@
-# Created by: Kimura Fuyuki <fuyuki@mj.0038.net>
-
 PORTNAME=	dictionary
 PORTVERSION=	1.8.7
 PORTREVISION=	29
@@ -10,6 +8,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Dictionary client for Emacs
+WWW=		https://www.myrkr.in-berlin.de/dictionary/
 
 LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/GPL

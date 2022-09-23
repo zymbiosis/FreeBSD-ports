@@ -1,10 +1,11 @@
 PORTNAME=	inputstream.adaptive
-DISTVERSION=	19.0.5
+DISTVERSION=	19.0.7
 DISTVERSIONSUFFIX=	-Matrix
 CATEGORIES=	multimedia
 
 MAINTAINER=	decke@FreeBSD.org
 COMMENT=	Adaptive stream support for Kodi
+WWW=		https://github.com/peak3d/inputstream.adaptive
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE.GPL

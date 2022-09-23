@@ -1,5 +1,3 @@
-# Created by: Choe, Cheng-Dae
-
 PORTNAME=	jep
 PORTVERSION=	3.9.1
 CATEGORIES=	devel java python
@@ -8,6 +6,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	dbaio@FreeBSD.org
 COMMENT=	Java Embedded Python
+WWW=		https://github.com/mrj0/jep
 
 LICENSE=	ZLIB
 LICENSE_FILE=	${WRKSRC}/LICENSE

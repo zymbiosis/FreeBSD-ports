@@ -1,13 +1,13 @@
-# Created by: Emanuel Haupt <ehaupt@critical.ch>
-
 PORTNAME=	ocp
-PORTVERSION=	0.2.97
+PORTVERSION=	0.2.99
+PORTREVISION=	1
 PORTEPOCH=	1
 CATEGORIES=	audio
 MASTER_SITES=	https://github.com/mywave82/opencubicplayer/releases/download/v${PORTVERSION}/
 
 MAINTAINER=	ehaupt@FreeBSD.org
 COMMENT=	Legendary Open Cubic Player
+WWW=		https://stian.cubic.org/project-ocp.php
 
 LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/COPYING

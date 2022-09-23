@@ -1,5 +1,3 @@
-# Created by: Alexey Dokuchaev <danfe@FreeBSD.org>
-
 PORTNAME=	tup
 PORTVERSION=	0.7.11
 DISTVERSIONPREFIX=	v
@@ -8,6 +6,7 @@ MASTER_SITES=	https://gittup.org/tup/releases/
 
 MAINTAINER=	danfe@FreeBSD.org
 COMMENT=	Fast and smart file-based build system
+WWW=		https://gittup.org/tup/
 
 LICENSE=	GPLv2
 

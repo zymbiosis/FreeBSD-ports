@@ -1,8 +1,6 @@
-# Created by: Brian Somers <brian@FreeBSD.org>
-
 PORTNAME=	vlc
 DISTVERSION=	3.0.17.4
-PORTREVISION=	1
+PORTREVISION=	3
 PORTEPOCH=	4
 CATEGORIES=	multimedia audio net www
 MASTER_SITES=	http://download.videolan.org/pub/videolan/${PORTNAME}/${DISTVERSION:S/a$//}/ \
@@ -11,6 +9,7 @@ MASTER_SITES=	http://download.videolan.org/pub/videolan/${PORTNAME}/${DISTVERSIO
 
 MAINTAINER=	multimedia@FreeBSD.org
 COMMENT=	Qt based multimedia player and streaming server
+WWW=		https://www.videolan.org
 
 LICENSE=	GPLv2
 
@@ -52,7 +51,7 @@ CONFIGURE_ARGS=	--enable-avcodec --enable-avformat --enable-dvbpsi \
 		--disable-dc1394 --disable-decklink --disable-dsm \
 		--disable-dv1394 --disable-fdkaac --disable-gst-decode \
 		--disable-gles2 --disable-kai --disable-kva --disable-mpg123 \
-		--disable-vnc --disable-opencv --disable-projectm \
+		--disable-vnc --disable-opencv --disable-projectm --disable-schroedinger \
 		--disable-secret --disable-soxr --disable-telx \
 		--disable-tiger --disable-tremor --disable-udev \
 		--disable-update-check --disable-vsxu \
@@ -70,7 +69,7 @@ OPTIONS_DEFINE=	A52 AALIB AOM ASS AVAHI CACA CHROMECAST DAV1D DBUS DCA DOCS DVDR
 		GOOM HARFBUZZ JACK JPEG KATE LIBBLURAY LIBPLACEBO LIBRSVG2 LIBSSH2 LIRC \
 		LIVEMEDIA LUA MAD MFX MODPLUG MPEG2 MTP MUSEPACK \
 		NCURSES NFS NLS NOTIFY OGG OGGSPOTS OPTIMIZED_CFLAGS OPUS PNG PULSEAUDIO \
-		QT5 REALRTSP RUNROOT SAMPLERATE SIDPLAY SCHROEDINGER \
+		QT5 REALRTSP RUNROOT SAMPLERATE SIDPLAY \
 		SDL SHOUTCAST SKINS SMB SNDIO STREAM SPEEX TAGLIB THEORA \
 		TWOLAME UPNP V4L VAAPI VCD VDPAU VPX VORBIS WAYLAND X11 X264 X265 ZVBI
 OPTIONS_DEFINE_powerpc=	ALTIVEC
@@ -276,7 +275,7 @@ PULSEAUDIO_LIB_DEPENDS=	libpulse.so:audio/pulseaudio
 PULSEAUDIO_CONFIGURE_ENABLE=	pulse
 
 QT5_USES=	qt:5
-QT5_USE=	QT=gui,core,svg,widgets,x11extras,buildtools_build
+QT5_USE=	QT=gui,core,svg,widgets,x11extras,buildtools:build
 QT5_CONFIGURE_ENABLE=	qt
 QT5_IMPLIES=	X11
 
@@ -286,9 +285,6 @@ RUNROOT_CONFIGURE_ENABLE=	run-as-root
 
 SAMPLERATE_LIB_DEPENDS=		libsamplerate.so:audio/libsamplerate
 SAMPLERATE_CONFIGURE_ENABLE=	samplerate
-
-SCHROEDINGER_LIB_DEPENDS=	libschroedinger-1.0.so:multimedia/schroedinger
-SCHROEDINGER_CONFIGURE_ENABLE=	schroedinger
 
 SDL_USES=		sdl
 SDL_USE=		SDL=image

@@ -1,5 +1,3 @@
-# Created by: Sofian Brabez <sbz@FreeBSD.org>
-
 PORTNAME=	ltrace
 PORTVERSION=	0.6.0
 CATEGORIES=	sysutils
@@ -8,6 +6,7 @@ MASTER_SITES=	LOCAL/sbz \
 
 MAINTAINER=	sbz@FreeBSD.org
 COMMENT=	Track runtime library calls in dynamically linked programs
+WWW=		https://ltrace.org/
 
 LICENSE=	GPLv2
 

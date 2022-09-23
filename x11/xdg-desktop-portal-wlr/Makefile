@@ -1,10 +1,11 @@
 PORTNAME=	xdg-desktop-portal-wlr
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.6.0
-CATEGORIES=	x11
+CATEGORIES=	x11 wayland
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	xdg-desktop-portal backend for wlroots
+WWW=		https://github.com/emersion/xdg-desktop-portal-wlr
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

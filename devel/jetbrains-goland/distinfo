@@ -1,3 +1,3 @@
-TIMESTAMP = 1654271417
-SHA256 (jetbrains/goland-2022.1.2.tar.gz) = eb1a09c7a94f15d19786266694482df273307e1f36d900a894472cdde67c66ea
-SIZE (jetbrains/goland-2022.1.2.tar.gz) = 635188428
+TIMESTAMP = 1660761960
+SHA256 (jetbrains/goland-2022.2.2.tar.gz) = c3cfc300f55adc3a52528d13a1133bffd2aa7c2d20ea301cd20e3aff52d87609
+SIZE (jetbrains/goland-2022.2.2.tar.gz) = 655540964

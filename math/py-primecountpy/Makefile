@@ -1,5 +1,3 @@
-# Created by: thierry@pompo.net
-
 PORTNAME=	primecountpy
 PORTVERSION=	0.1.0
 CATEGORIES=	math python
@@ -8,6 +6,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	thierry@FreeBSD.org
 COMMENT=	Primecount Cython interface
+WWW=		https://pypi.org/project/primecountpy/
 
 LICENSE=	GPLv3
 

@@ -1,16 +1,17 @@
 PORTNAME=	bindfs
-DISTVERSION=	1.15.1
+DISTVERSION=	1.16.1
 CATEGORIES=	sysutils
 MASTER_SITES=	https://bindfs.org/downloads/
 PKGNAMEPREFIX=	fusefs-
 
 MAINTAINER=	doralitze@chaotikum.org
 COMMENT=	FUSE based bindfs implementation way more powerful than nullfs
+WWW=		https://bindfs.org/
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		fuse localbase:ldflags pkgconfig
+USES=		fuse:3 localbase:ldflags pkgconfig
 GNU_CONFIGURE=	yes
 
 PLIST_FILES=	bin/bindfs \

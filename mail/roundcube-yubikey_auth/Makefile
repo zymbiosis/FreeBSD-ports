@@ -1,5 +1,3 @@
-# Created by: Vidar Karlsen <vidar@karlsen.tech>
-
 PORTNAME=	yubikey_auth
 PORTVERSION=	g20180404
 CATEGORIES=	mail
@@ -8,6 +6,7 @@ PKGNAMESUFFIX=	${PHP_PKGNAMESUFFIX}
 
 MAINTAINER=	vidar@karlsen.tech
 COMMENT=	Roundcube yubikey auth plugin
+WWW=		https://github.com/northox/roundcube-yubikey-plugin
 
 LICENSE=	GPLv2
 

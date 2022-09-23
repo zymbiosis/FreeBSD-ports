@@ -1,5 +1,3 @@
-# Created by: Hans Petter Selasky <hselasky@FreeBSD.org>
-
 PORTNAME=	midipp
 DISTVERSIONPREFIX=	v
 DISTVERSION=		2.1.4
@@ -7,6 +5,7 @@ CATEGORIES=	audio
 
 MAINTAINER=	hselasky@FreeBSD.org
 COMMENT=	MIDI playback, recording, and live performance tool
+WWW=		https://github.com/hselasky/midipp
 
 LICENSE=	BSD2CLAUSE
 
@@ -15,7 +14,7 @@ LIB_DEPENDS=	libumidi20.so:audio/libumidi
 
 USES=		compiler:c++11-lang gl qmake qt:5 tar:bzip2
 USE_GL=		gl
-USE_QT=		buildtools_build core gui network printsupport widgets
+USE_QT=		buildtools:build core gui network printsupport widgets
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	hselasky

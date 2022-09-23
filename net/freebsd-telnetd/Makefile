@@ -1,5 +1,3 @@
-# Created by: cy@FreeBSD.org
-
 PORTNAME=	freebsd-telnetd
 DISTVERSIONPREFIX=	v
 DISTVERSION=	14.0
@@ -7,6 +5,7 @@ CATEGORIES=	net
 
 MAINTAINER=	cy@FreeBSD.org
 COMMENT=	FreeBSD telnetd
+WWW=		https://github.com/cschuber/freebsd-telnetd
 
 LICENSE=	BSD3CLAUSE
 

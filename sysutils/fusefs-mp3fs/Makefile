@@ -1,5 +1,3 @@
-# Created by: Stefan Rumetshofer
-
 PORTNAME=	mp3fs
 PORTVERSION=	0.91
 PORTREVISION=	1
@@ -10,6 +8,7 @@ PKGNAMEPREFIX=	fusefs-
 
 MAINTAINER=	stefan.rumetshofer@drei.at
 COMMENT=	FUSE-based filesystem for transcoding FLAC to MP3 on the fly
+WWW=		https://github.com/khenriks/mp3fs
 
 LICENSE=	GPLv3+
 LICENSE_FILE=	${WRKSRC}/COPYING

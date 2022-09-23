@@ -1,5 +1,3 @@
-# Created by: thierry@pompo.net
-
 PORTNAME=	APKiD
 PORTVERSION=	2.1.3
 DISTVERSIONPREFIX=	v
@@ -7,6 +5,7 @@ CATEGORIES=	security
 
 MAINTAINER=	thierry@FreeBSD.org
 COMMENT=	Android Application Identifier
+WWW=		https://rednaga.io/
 
 LICENSE=	GPLv3 RedNaga
 LICENSE_COMB=	dual

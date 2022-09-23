@@ -1,5 +1,3 @@
-# Created by: Wen Heping <wenheping@gmail.com>
-
 PORTNAME=	pg8000
 PORTVERSION=	1.12.5
 CATEGORIES=	databases python
@@ -9,6 +7,7 @@ PKGNAMESUFFIX=	-112
 
 MAINTAINER=	wen@FreeBSD.org
 COMMENT=	Pure-Python Interface to the PostgreSQL Database
+WWW=		https://github.com/mfenniak/pg8000
 
 LICENSE=	BSD3CLAUSE
 
@@ -16,6 +15,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>=0:devel/py-six@${PY_FLAVOR}
 
 USES=		python:3.6+
 USE_PYTHON=	autoplist distutils
+
+CONFLICTS_INSTALL=	${PYTHON_PKGNAMEPREFIX}pg8000 # lib/python3.8/site-packages/pg8000/__init__.py
 
 NO_ARCH=	yes
 

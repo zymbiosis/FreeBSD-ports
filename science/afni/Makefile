@@ -1,10 +1,11 @@
 PORTNAME=		afni
 DISTVERSIONPREFIX=	AFNI_
-DISTVERSION=		22.1.13
+DISTVERSION=		22.2.10
 CATEGORIES=		science biology graphics perl5 python
 
 MAINTAINER=	fernape@FreeBSD.org
 COMMENT=	Advanced Functional Neuro Imaging
+WWW=		https://afni.nimh.nih.gov/afni/
 
 LICENSE=	GPLv2
 
@@ -57,9 +58,9 @@ SHEBANG_FILES=	scripts_install/* \
 
 MAKE_ENV=	CC="${CC}" R_SHARE_DIR=${LOCALBASE}/lib/R/share
 MAKE_JOBS_UNSAFE=yes
-CFLAGS+=	-fcommon
-
 ALL_TARGET=	vastness suma
+
+CFLAGS+=	-fcommon
 
 ###########################################################################
 # Install parameters
@@ -82,6 +83,8 @@ CONFLICTS=	im \
 
 X11R6_FILES=	coxplot/Makefile \
 		coxplot/Makefile.f2c
+
+PKG_COMPRESSION_LEVEL= 	-6
 
 post-extract:
 .for f in ${X11R6_FILES}

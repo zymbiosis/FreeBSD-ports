@@ -1,5 +1,3 @@
-# Created by: Albert Vernon <f3cun3c02@sneakemail.com>
-
 PORTNAME=	zutils
 PORTVERSION=	1.11
 CATEGORIES=	archivers
@@ -7,13 +5,14 @@ MASTER_SITES=	SAVANNAH/zutils
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Utilities for searching in bzip2, gzip, lzip, and xz archives
+WWW=		https://www.nongnu.org/zutils/zutils.html
 
 LICENSE=	GPLv2
 
 USES=		cpe tar:lz
 GNU_CONFIGURE=	yes
 
-CONFLICTS_INSTALL=	gzip openzfs # bin/zcat bin/zcmp bin/zdiff bin/zgrep man/man1/ztest.1.gz
+CONFLICTS_INSTALL=	gzip # bin/zcat bin/zcmp bin/zdiff bin/zgrep man/man1/ztest.1.gz
 
 INSTALL_TARGET=	install-strip
 CPE_VENDOR=	nongnu

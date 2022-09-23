@@ -1,5 +1,3 @@
-# Created by: Michael Vasilenko <acid@stu.cn.ua>
-
 PORTNAME=	elinks
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.15.0
@@ -7,6 +5,7 @@ CATEGORIES=	www
 
 MAINTAINER=	jailbird@fdf.net
 COMMENT=	Links text WWW browser with enhancements
+WWW=		https://github.com/rkd77/elinks/
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING

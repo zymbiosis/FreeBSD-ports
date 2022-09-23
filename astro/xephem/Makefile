@@ -1,11 +1,10 @@
-# Created by: erich@FreeBSD.org
-
 PORTNAME=	xephem
 PORTVERSION=	4.1.0
 CATEGORIES=	astro
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Interactive astronomical ephemeris program
+WWW=		http://www.clearskyinstitute.com/xephem/xephem.html
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKDIR}/XEphem-${PORTVERSION}/LICENSE

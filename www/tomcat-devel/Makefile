@@ -1,7 +1,5 @@
-# Created by: Alex Dupre <ale@FreeBSD.org>
-
 PORTNAME=	tomcat
-DISTVERSION=	10.1.0-M16
+DISTVERSION=	10.1.0-M17
 CATEGORIES=	www java
 MASTER_SITES=	APACHE/${PORTNAME}/${PORTNAME}-${DISTVERSION:C/([0-9]+)(.*)/\1/}/v${DISTVERSION}/bin
 PKGNAMESUFFIX=	-devel
@@ -9,6 +7,7 @@ DISTNAME=	apache-${PORTNAME}-${DISTVERSION}
 
 MAINTAINER=	vvd@unislabs.com
 COMMENT=	Open-source Java web server by Apache, 10.1.x branch
+WWW=		https://tomcat.apache.org/
 
 LICENSE=	APACHE20
 

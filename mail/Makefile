@@ -496,8 +496,8 @@
     SUBDIR += py-django-mailbox
     SUBDIR += py-django-mailman3
     SUBDIR += py-dkimpy
+    SUBDIR += py-email-reply-parser
     SUBDIR += py-email-validator
-    SUBDIR += py-email_reply_parser
     SUBDIR += py-flanker
     SUBDIR += py-flask-mail
     SUBDIR += py-flufl.bounce
@@ -547,7 +547,6 @@
     SUBDIR += queue-fix
     SUBDIR += queue-repair
     SUBDIR += rainloop
-    SUBDIR += rainloop-community
     SUBDIR += ratelimit-policyd
     SUBDIR += raysfilter
     SUBDIR += razor-agents
@@ -564,12 +563,9 @@
     SUBDIR += roundcube-html5_notifier
     SUBDIR += roundcube-identity_smtp
     SUBDIR += roundcube-login_info
-    SUBDIR += roundcube-mobilecube
-    SUBDIR += roundcube-mvision2
     SUBDIR += roundcube-sauserprefs
     SUBDIR += roundcube-thunderbird_labels
     SUBDIR += roundcube-twofactor_gauthenticator
-    SUBDIR += roundcube-umich
     SUBDIR += roundcube-veximaccountadmin
     SUBDIR += roundcube-yubikey_auth
     SUBDIR += rspamd
@@ -611,7 +607,6 @@
     SUBDIR += rubygem-roadie-rails-rails52
     SUBDIR += rubygem-roadie3
     SUBDIR += rubygem-ruby-qmail
-    SUBDIR += rubygem-tmail
     SUBDIR += rubygem-valid_email
     SUBDIR += rubygem-vmail
     SUBDIR += s-nail

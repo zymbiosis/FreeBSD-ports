@@ -1,5 +1,3 @@
-# Created by: Steven Kreuzer <skreuzer@f2o.org>
-
 PORTNAME=	moo
 PORTVERSION=	1.5
 PORTREVISION=	1
@@ -7,6 +5,7 @@ CATEGORIES=	math
 
 MAINTAINER=	skreuzer@FreeBSD.org
 COMMENT=	Calculator that accepts C-like syntax as input
+WWW=		http://www.cyth.net/moo/
 
 LICENSE=	PD
 

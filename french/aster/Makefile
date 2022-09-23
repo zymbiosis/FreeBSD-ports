@@ -1,12 +1,11 @@
-# Created by: thierry@pompo.net
-
 PORTNAME=	aster
 DISTVERSION=	${ASTER_DISTVERSION}
-PORTREVISION=	4
+PORTREVISION=	6
 CATEGORIES=	french cad
 
 MAINTAINER=	thierry@FreeBSD.org
 COMMENT=	Code_Aster finite element method solver
+WWW=		http://www.code-aster.org/
 
 LICENSE=	GPLv2
 
@@ -48,7 +47,7 @@ RUN_DEPENDS+=	${SHELL_INSTALL_ASTER}:shells/${SHIADEP}	\
 
 USES=		bison blaslapack:openblas fortran gettext python:3.6+ qt:5 tk
 USE_BINUTILS=	yes
-USE_QT=		linguisttools_build
+USE_QT=		linguisttools:build
 
 #CONFLICTS_BUILD=${PYTHON_PKGNAMEPREFIX}cysignals-1.*
 

@@ -64,7 +64,6 @@
     SUBDIR += cstream
     SUBDIR += ctm
     SUBDIR += cuttlefish
-    SUBDIR += cxxmatrix
     SUBDIR += dahdi
     SUBDIR += dahdi-kmod
     SUBDIR += dahdi-kmod26
@@ -83,14 +82,11 @@
     SUBDIR += dynomite
     SUBDIR += e2fsprogs-libblkid
     SUBDIR += e2fsprogs-libuuid
+    SUBDIR += ecflow
     SUBDIR += edfbrowser
     SUBDIR += edflib
-    SUBDIR += elixir-mime
-    SUBDIR += elixir-uuid
     SUBDIR += elki
     SUBDIR += elscreen
-    SUBDIR += erlang-mimerl
-    SUBDIR += erlang-mimetypes
     SUBDIR += estic
     SUBDIR += exercism
     SUBDIR += explosions
@@ -245,6 +241,7 @@
     SUBDIR += mc
     SUBDIR += mc-nox11
     SUBDIR += mdp
+    SUBDIR += meshoptimizer
     SUBDIR += metalink-checker
     SUBDIR += metalink-tools
     SUBDIR += mime-support
@@ -260,7 +257,6 @@
     SUBDIR += najitool
     SUBDIR += ncnn
     SUBDIR += netron
-    SUBDIR += ngraph
     SUBDIR += nms
     SUBDIR += nn-insight
     SUBDIR += nnn
@@ -378,6 +374,7 @@
     SUBDIR += py-SimpleSoapy
     SUBDIR += py-SoapySDR
     SUBDIR += py-alive-progress
+    SUBDIR += py-boost-histogram
     SUBDIR += py-cinder
     SUBDIR += py-colorbrewer
     SUBDIR += py-colored
@@ -392,6 +389,7 @@
     SUBDIR += py-gluoncv
     SUBDIR += py-gluonnlp
     SUBDIR += py-halo
+    SUBDIR += py-histoprint
     SUBDIR += py-huepy
     SUBDIR += py-kartograph
     SUBDIR += py-log_symbols
@@ -413,9 +411,11 @@
     SUBDIR += py-pyEDFlib
     SUBDIR += py-pyfiglet
     SUBDIR += py-pykml
+    SUBDIR += py-pypatent
     SUBDIR += py-pyprind
     SUBDIR += py-python-geohash
     SUBDIR += py-python-utils
+    SUBDIR += py-qiskit-machine-learning
     SUBDIR += py-scikit-fusion
     SUBDIR += py-serverfiles
     SUBDIR += py-soapy_power
@@ -430,6 +430,7 @@
     SUBDIR += py-toil
     SUBDIR += py-tqdm
     SUBDIR += py-tvm
+    SUBDIR += py-uhi
     SUBDIR += py-wurlitzer
     SUBDIR += py-xgboost
     SUBDIR += pyobd
@@ -439,6 +440,7 @@
     SUBDIR += qt5-examples
     SUBDIR += qt5-l10n
     SUBDIR += qt5ct
+    SUBDIR += qt6-doc
     SUBDIR += quantum++
     SUBDIR += raspberrypi-gpioshutdown
     SUBDIR += raspberrypi-userland
@@ -537,6 +539,7 @@
     SUBDIR += visp
     SUBDIR += viz
     SUBDIR += vxl
+    SUBDIR += wego
     SUBDIR += whichman
     SUBDIR += window
     SUBDIR += with

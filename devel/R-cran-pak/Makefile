@@ -1,5 +1,3 @@
-# Created by: Guangyuan Yang <ygy@FreeBSD.org>
-
 PORTNAME=	pak
 DISTVERSION=	0.3.0
 CATEGORIES=	devel
@@ -7,6 +5,7 @@ DISTNAME=	${PORTNAME}_${DISTVERSION}
 
 MAINTAINER=	ygy@FreeBSD.org
 COMMENT=	Another Approach to Package Installation
+WWW=		https://pak.r-lib.org/
 
 LICENSE=	GPLv3
 

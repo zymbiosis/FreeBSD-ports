@@ -7,6 +7,7 @@ PKGNAMESUFFIX=	6
 
 MAINTAINER=	feld@FreeBSD.org
 COMMENT=	High-performance HTTP accelerator
+WWW=		https://www.varnish-cache.org/
 
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -22,6 +23,7 @@ CONFLICTS=	varnish4 varnish7
 
 SHEBANG_FILES=	lib/libvcc/*.py
 CPE_VENDOR=	varnish-cache
+CPE_PRODUCT=	varnish_cache
 CFLAGS+=	-I${LOCALBASE}/include
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--localstatedir=${PREFIX} --without-dot

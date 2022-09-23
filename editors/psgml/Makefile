@@ -1,5 +1,3 @@
-# Created by: Shigeyuki Fukushima <shige@FreeBSD.org>
-
 PORTNAME=	psgml
 PORTVERSION=	1.4.0
 PORTREVISION=	14
@@ -13,6 +11,7 @@ PATCHFILES=	psgml-symbol-conflict-050503.diff.gz
 
 MAINTAINER=	hrs@FreeBSD.org
 COMMENT=	Major mode for editing SGML and XML documents for Emacs
+WWW=		http://www.lysator.liu.se/~lenst/about_psgml/
 
 LICENSE=	GPLv2
 

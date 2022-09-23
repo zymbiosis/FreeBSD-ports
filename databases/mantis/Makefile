@@ -1,5 +1,3 @@
-# Created by: Rozhuk Ivan <rozhuk.im@gmail.com>
-
 PORTNAME=	mantis
 PORTVERSION=	2.25.2
 PORTEPOCH=	1
@@ -11,6 +9,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	zab@zltech.eu
 COMMENT=	Bug tracking system written in PHP
+WWW=		https://www.mantisbt.org/
 
 LICENSE=	GPLv2
 

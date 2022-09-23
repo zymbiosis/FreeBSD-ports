@@ -1,5 +1,3 @@
-# Created by: Ganael LAPLANCHE <ganael.laplanche@martymac.org>
-
 PORTNAME=	amule
 PORTVERSION=	2.3.3
 PORTREVISION=	3
@@ -9,6 +7,7 @@ DISTNAME=	aMule-${PORTVERSION}
 
 MAINTAINER=	bar@FreeBSD.org
 COMMENT=	All-platform eMule p2p client
+WWW=		https://www.amule.org/
 
 LICENSE=	GPLv2+
 LICENSE_FILE_GPLv2+ =	${WRKSRC}/docs/COPYING

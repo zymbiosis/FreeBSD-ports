@@ -1,5 +1,3 @@
-# Created by: Jason Helfman <jgh@FreeBSD.org>
-
 PORTNAME=	pg_activity
 PORTVERSION=	2.3.1
 DISTVERSIONPREFIX=	v
@@ -7,6 +5,7 @@ CATEGORIES=	databases python
 
 MAINTAINER=	pgsql@FreeBSD.org
 COMMENT=	Htop like application for PostgreSQL server activity monitoring
+WWW=		https://github.com/dalibo/pg_activity
 
 LICENSE=	PostgreSQL
 

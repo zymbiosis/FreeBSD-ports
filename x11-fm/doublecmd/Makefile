@@ -1,14 +1,13 @@
-# Created by: Beñat Gonzalez Etxepare <bbtruk@users.sourceforge.net>
-
 PORTNAME=	doublecmd
 PORTVERSION=	1.0.4
-PORTREVISION=	2
+PORTREVISION=	3
 DISTVERSIONPREFIX=	v
 CATEGORIES=	x11-fm
 PKGNAMESUFFIX=	${LAZARUS_PKGNAMESUFFIX}
 
-MAINTAINER=	bbtruk@users.sourceforge.net
+MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Total Commander like file manager for the X Window System
+WWW=		https://doublecmd.sourceforge.io
 
 LICENSE=	GPLv2
 

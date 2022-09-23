@@ -1,7 +1,7 @@
 PORTNAME=	grim
 DISTVERSIONPREFIX=	v
 DISTVERSION=	1.4.0
-CATEGORIES=	x11
+CATEGORIES=	x11 wayland
 MASTER_SITES=	https://git.sr.ht/~emersion/${PORTNAME}/archive/${DISTVERSIONFULL}${EXTRACT_SUFX}?dummy=/
 
 PATCH_SITES=	https://git.sr.ht/~emersion/${PORTNAME}/commit/
@@ -9,6 +9,7 @@ PATCHFILES+=	89e02e663fab.patch:-p1 # https://github.com/emersion/grim/pull/121
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Grab images from a Wayland compositor
+WWW=		https://sr.ht/~emersion/grim/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

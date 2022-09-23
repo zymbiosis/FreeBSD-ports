@@ -1,12 +1,11 @@
-# Created by: Alexander Logvinov <avl@FreeBSD.org>
-
 PORTNAME=	jruby-jars
-PORTVERSION=	9.2.20.1
+PORTVERSION=	9.2.21.0
 CATEGORIES=	devel rubygems java
 MASTER_SITES=	RG
 
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	JAR files from the JRuby distribution
+WWW=		https://github.com/jruby/jruby/tree/master/maven/jruby-jars
 
 LICENSE=	EPL GPLv2 LGPL21
 LICENSE_COMB=	dual

@@ -1,13 +1,12 @@
-# Created by: Po-Chuan Hsieh <sunpoet@FreeBSD.org>
-
 PORTNAME=	pyreadr
-PORTVERSION=	0.4.4
+PORTVERSION=	0.4.6
 CATEGORIES=	math python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	Read/write R RData and Rds files into/from pandas data frames
+WWW=		https://github.com/ofajardo/pyreadr
 
 LICENSE=	AGPLv3+
 

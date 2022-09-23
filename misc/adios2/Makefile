@@ -1,11 +1,11 @@
 PORTNAME=	adios2
 DISTVERSIONPREFIX=	v
-DISTVERSION=	2.8.1
-PORTREVISION=	1
+DISTVERSION=	2.8.3
 CATEGORIES=	misc science
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Next generation of ADIOS developed in the Exascale Computing Program
+WWW=		https://github.com/ornladios/ADIOS2
 
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -53,5 +53,7 @@ OPTIONS_DEFINE=	DOCS
 
 DOCSDIR=	${PREFIX}/share/doc/ADIOS2
 PORTDOCS=	*
+
+# several tests fail, see https://github.com/ornladios/ADIOS2/issues/3286
 
 .include <bsd.port.mk>

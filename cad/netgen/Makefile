@@ -1,12 +1,11 @@
-# Created by: Thierry Thomas <thierry@FreeBSD.org>
-
 PORTNAME=	netgen
-PORTVERSION=	6.2.2203
+PORTVERSION=	6.2.2204
 DISTVERSIONPREFIX=	v
 CATEGORIES=	cad
 
 MAINTAINER=	stephen@FreeBSD.org
 COMMENT=	Automatic 3D tetrahedral mesh generator
+WWW=		https://ngsolve.org/
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -32,7 +31,7 @@ LDFLAGS+=	-lexecinfo
 
 CMAKE_OFF=	USE_NATIVE_ARCH
 
-CONFLICTS_INSTALL=	libvisual netgen-lvs pybind11 # bin/netgen include/pybind11/attr.h lib/libvisual.so
+CONFLICTS_INSTALL=	libvisual pybind11 # bin/netgen include/pybind11/attr.h lib/libvisual.so
 
 OPTIONS_DEFINE=	JPEG MPEG CGNS
 

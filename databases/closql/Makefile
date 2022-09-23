@@ -7,6 +7,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	yasu@FreeBSD.org
 COMMENT=	Store EIEIO objects using EmacSQL
+WWW=		https://github.com/emacscollective/closql
 
 LICENSE=	GPLv3+
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -17,6 +18,8 @@ RUN_DEPENDS=	emacsql${EMACS_PKGNAMESUFFIX}>=3.0.0:databases/emacsql@${EMACS_FLAV
 USES=		emacs
 USE_GITHUB=	yes
 GH_ACCOUNT=	emacscollective
+
+CONFLICTS_INSTALL=	closql closql-emacs_* # share/doc/closql/README.md
 
 NO_ARCH=	yes
 

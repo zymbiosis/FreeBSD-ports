@@ -1,5 +1,3 @@
-# Created by: Alex Dupre <ale@FreeBSD.org>
-
 PORTNAME=	pear
 PORTVERSION=	1.10.12
 PORTREVISION=	0
@@ -11,6 +9,7 @@ PKGNAMEPREFIX=	${PHP_PKGNAMEPREFIX}
 
 MAINTAINER=	fluffy@FreeBSD.org
 COMMENT=	PEAR framework for PHP
+WWW=		https://pear.php.net/
 
 LICENSE=	PHP301
 

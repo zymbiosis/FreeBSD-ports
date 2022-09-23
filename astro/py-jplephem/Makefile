@@ -1,5 +1,3 @@
-# Created by: thierry@pompo.net
-
 PORTNAME=	jplephem
 PORTVERSION=	2.17
 CATEGORIES=	astro python
@@ -7,6 +5,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	thierry@FreeBSD.org
 COMMENT=	Python version of NASA DE4xx ephemerides
+WWW=		https://github.com/brandon-rhodes/python-jplephem
 
 LICENSE=	MIT
 

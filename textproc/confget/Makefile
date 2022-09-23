@@ -1,5 +1,3 @@
-# Created by: Peter Pentchev <roam@FreeBSD.org>
-
 PORTNAME=	confget
 PORTVERSION=	4.1.0
 DISTVERSIONPREFIX=	release-
@@ -8,6 +6,7 @@ MASTER_SITES=	https://gitlab.com/confget/confget/-/archive/release/${PORTVERSION
 
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	Read variables from INI-style configuration files
+WWW=		https://gitlab.com/confget/confget
 
 LICENSE=	BSD2CLAUSE
 
@@ -19,6 +18,8 @@ TEST_TARGET=	test
 PLIST_FILES=	bin/confget \
 		share/man/man1/confget.1.gz
 PORTEXAMPLES=	t1.ini t2.ini
+
+PORTSCOUT=	skipv:5.0.0
 
 OPTIONS_DEFINE=	EXAMPLES PCRE
 OPTIONS_DEFAULT=PCRE

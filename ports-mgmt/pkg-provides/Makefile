@@ -1,10 +1,11 @@
 PORTNAME=	pkg-provides
 DISTVERSIONPREFIX=	v
-DISTVERSION=	0.7.1
+DISTVERSION=	0.7.2
 CATEGORIES=	ports-mgmt
 
 MAINTAINER=	rodrigo@FreeBSD.org
 COMMENT=	Pkg plugin for querying which package provides a particular file
+WWW=		https://github.com/rosorio/pkg-provides
 
 LICENSE=	BSD2CLAUSE BSD3CLAUSE BSD4CLAUSE
 LICENSE_COMB=	multi
@@ -16,7 +17,7 @@ LIB_DEPENDS=	libpcre.so:devel/pcre
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	rosorio
-GH_TAGNAME=	9304c3d
+GH_TAGNAME=	2bf7b48565f3fc0ed5d53918d2f24ac5d8730dba
 USE_LDCONFIG=	yes
 
 SUB_FILES=	pkg-message

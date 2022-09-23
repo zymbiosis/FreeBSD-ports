@@ -1,5 +1,3 @@
-# Created by: ijliao
-
 PORTNAME=	anubis
 PORTVERSION=	4.2
 PORTREVISION=	14
@@ -8,6 +6,7 @@ MASTER_SITES=	GNU
 
 MAINTAINER=	jhale@FreeBSD.org
 COMMENT=	Outgoing SMTP mail processor
+WWW=		https://www.gnu.org/software/anubis/
 
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/COPYING

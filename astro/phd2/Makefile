@@ -1,11 +1,12 @@
 PORTNAME=	phd2
 DISTVERSIONPREFIX=v
 DISTVERSION=	2.6.10
-PORTREVISION=	2
+PORTREVISION=	4
 CATEGORIES=	astro
 
 MAINTAINER=	acm@FreeBSD.org
 COMMENT=	Guiding software inspired by Stark Labs PHD Guiding
+WWW=		https://openphdguiding.org/
 
 LICENSE=	BSD3CLAUSE
 

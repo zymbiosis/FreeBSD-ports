@@ -1,5 +1,3 @@
-# Created by: Neal Nelson <ports@nicandneal.net>
-
 PORTNAME=	nim
 DISTVERSION=	1.6.6
 CATEGORIES=	lang
@@ -7,6 +5,7 @@ MASTER_SITES=	https://nim-lang.org/download/
 
 MAINTAINER=	ports@nicandneal.net
 COMMENT=	Nim programming language
+WWW=		https://nim-lang.org/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/copying.txt

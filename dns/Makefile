@@ -70,7 +70,6 @@
     SUBDIR += dsp
     SUBDIR += dynip
     SUBDIR += encrypted-dns-server
-    SUBDIR += erlang-idna
     SUBDIR += fastresolve
     SUBDIR += firedns
     SUBDIR += flamethrower
@@ -185,6 +184,7 @@
     SUBDIR += py-cloudflare
     SUBDIR += py-dns-crawler
     SUBDIR += py-dns-lexicon
+    SUBDIR += py-dnslib
     SUBDIR += py-dnspython
     SUBDIR += py-dnspython1
     SUBDIR += py-easyzone

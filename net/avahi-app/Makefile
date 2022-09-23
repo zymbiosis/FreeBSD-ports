@@ -1,5 +1,3 @@
-# Created by: Joe Marcus Clarke <marcus@FreeBSD.org>
-
 PORTNAME=	avahi
 PORTVERSION=	0.8
 CATEGORIES?=	net dns
@@ -8,6 +6,7 @@ PKGNAMESUFFIX?=	-app
 
 MAINTAINER?=	desktop@FreeBSD.org
 COMMENT?=	Service discovery on a local network
+WWW=		https://www.avahi.org/
 
 LICENSE=	LGPL21+
 LICENSE_FILE=	${WRKSRC}/LICENSE

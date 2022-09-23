@@ -1,10 +1,11 @@
 PORTNAME=	openarc
-PORTVERSION=	1.0.0.b3.20201016
+DISTVERSION=	1-0-0-Beta3.20201016
 PORTREVISION=	1
 CATEGORIES=	mail
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Library to validate use of certain identifiers in messages
+WWW=		https://github.com/trusteddomainproject/OpenARC
 
 LICENSE=	AGPLv3
 LICENSE_FILE=	${WRKSRC}/LICENSE

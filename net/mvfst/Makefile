@@ -1,10 +1,11 @@
 PORTNAME=	mvfst
 DISTVERSION=	g20220328
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	net
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Implementation of the QUIC transport protocol
+WWW=		https://github.com/facebookincubator/mvfst
 
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE

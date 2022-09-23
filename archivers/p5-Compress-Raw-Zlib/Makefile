@@ -1,13 +1,12 @@
-# Created by: Thomas Abthorpe <thomas@goodking.ca>
-
 PORTNAME=	Compress-Raw-Zlib
-PORTVERSION=	2.200
+PORTVERSION=	2.202
 CATEGORIES=	archivers perl5
 MASTER_SITES=	CPAN
 PKGNAMEPREFIX=	p5-
 
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	Low-Level Interface to zlib compression library
+WWW=		https://metacpan.org/release/Compress-Raw-Zlib
 
 LICENSE=	ART10 GPLv1+
 LICENSE_COMB=	dual

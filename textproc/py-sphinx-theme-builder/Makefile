@@ -1,13 +1,12 @@
-# Created by: Po-Chuan Hsieh <sunpoet@FreeBSD.org>
-
 PORTNAME=	sphinx-theme-builder
-PORTVERSION=	0.2.0a14
+PORTVERSION=	0.2.0a15
 CATEGORIES=	textproc python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	Tool for authoring Sphinx themes with a simple (opinionated) workflow
+WWW=		https://github.com/pradyunsg/sphinx-theme-builder
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

@@ -1,5 +1,3 @@
-# Created by: dd
-
 PORTNAME=	tuareg-mode
 PORTVERSION=	2.0.8
 PORTREVISION=	11
@@ -9,6 +7,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	michipili@gmail.com
 COMMENT=	Emacs major mode for editing Caml code
+WWW=		http://tuareg.forge.ocamlcore.org/
 
 LICENSE=	GPLv2
 

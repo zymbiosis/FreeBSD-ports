@@ -1,11 +1,13 @@
 PORTNAME=	types-xxhash
-PORTVERSION=	3.0.1
+PORTVERSION=	3.0.4
+PORTREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	amdmi3@FreeBSD.org
 COMMENT=	Typing stubs for xxhash
+WWW=		https://pypi.org/project/types-xxhash/
 
 LICENSE=	APACHE20
 

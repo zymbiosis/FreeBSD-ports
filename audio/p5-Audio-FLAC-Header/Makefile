@@ -1,5 +1,3 @@
-# Created by: Andrew Pantyukhin <infofarmer@FreeBSD.org>
-
 PORTNAME=	Audio-FLAC-Header
 PORTVERSION=	2.4
 PORTREVISION=	3
@@ -9,6 +7,7 @@ PKGNAMEPREFIX=	p5-
 
 MAINTAINER=	perl@FreeBSD.org
 COMMENT=	Interface to FLAC header metadata
+WWW=		https://metacpan.org/release/Audio-FLAC-Header
 
 LICENSE=	ART10 GPLv1+
 LICENSE_COMB=	dual

@@ -1,5 +1,3 @@
-# Created by: Hajimu UMEMOTO <ume@FreeBSD.org>
-
 PORTNAME=	xcite
 PORTVERSION=	1.60
 PORTREVISION=	18
@@ -11,6 +9,7 @@ EXTRACT_SUFX=	# empty
 
 MAINTAINER=	ume@FreeBSD.org
 COMMENT=	Exciting Cite for any Mail/News reading modes on Emacs
+WWW=		https://www.gentei.org/~yuuji/software/
 
 USES=		emacs
 

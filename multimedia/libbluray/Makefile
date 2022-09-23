@@ -1,5 +1,3 @@
-# Created by: kamikaze@bsdforen.de
-
 PORTNAME=	libbluray
 DISTVERSION=	1.3.1
 PORTEPOCH=	1
@@ -8,6 +6,7 @@ MASTER_SITES=	https://download.videolan.org/pub/videolan/${PORTNAME}/${DISTVERSI
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Blu-Ray discs playback library for media players
+WWW=		https://www.videolan.org/developers/libbluray.html
 
 LICENSE=	LGPL21
 

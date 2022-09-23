@@ -1,10 +1,11 @@
 PORTNAME=	musikcube
-DISTVERSION=	0.97.0
+DISTVERSION=	0.98.0
 PORTREVISION=	1
 CATEGORIES=	multimedia audio
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Terminal-based music player, audio engine, metadata indexer, server
+WWW=		https://musikcube.com/
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
@@ -20,6 +21,7 @@ LIB_DEPENDS=	libavcodec.so:multimedia/ffmpeg \
 		libmpg123.so:audio/mpg123 \
 		libogg.so:audio/libogg \
 		libopenmpt.so:audio/libopenmpt \
+		libpulse.so:audio/pulseaudio \
 		libsndio.so:audio/sndio \
 		libtag.so:audio/taglib \
 		libvorbis.so:audio/libvorbis

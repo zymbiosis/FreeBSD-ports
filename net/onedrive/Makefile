@@ -1,10 +1,11 @@
 PORTNAME=	onedrive
 DISTVERSIONPREFIX=	v
-DISTVERSION=	2.4.17
+DISTVERSION=	2.4.18
 CATEGORIES=	net
 
 MAINTAINER=	hiroo.ono+freebsd@gmail.com
 COMMENT=	OneDrive Free client
+WWW=		https://github.com/abraunegg/onedrive
 
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/LICENSE

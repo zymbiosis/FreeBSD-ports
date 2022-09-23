@@ -1,5 +1,3 @@
-# Created by: jeff@cetlink.net
-
 PORTNAME=	libgd
 PORTVERSION=	2.3.3
 PORTREVISION=	1
@@ -9,6 +7,7 @@ MASTER_SITES=	https://github.com/${PORTNAME}/${PORTNAME}/releases/download/gd-${
 
 MAINTAINER?=	dinoex@FreeBSD.org
 COMMENT?=	Graphics library for fast creation of images
+WWW=		https://libgd.github.io/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
@@ -41,7 +40,6 @@ WEBP_CPPFLAGS=		-I${LOCALBASE}/include
 TIFF_LIB_DEPENDS=	libtiff.so:graphics/tiff
 TIFF_CONFIGURE_OFF=	--without-tiff
 TIFF_CPPFLAGS=		-I${LOCALBASE}/include
-HEIF_DESC=	HEIF image format support
 HEIF_LIB_DEPENDS=	libheif.so:graphics/libheif
 HEIF_CONFIGURE_OFF=	--without-heif
 HEIF_CPPFLAGS=		-I${LOCALBASE}/include

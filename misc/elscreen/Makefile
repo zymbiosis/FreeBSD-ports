@@ -1,5 +1,3 @@
-# Created by: Yoichi NAKAYAMA <yoichi@FreeBSD.org>
-
 PORTNAME=	elscreen
 PORTVERSION=	1.4.6.20180320
 PORTREVISION=	7
@@ -8,6 +6,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Emacs utility similar to GNU Screen
+WWW=		https://github.com/TakaakiFuruse/elscreen
 
 LICENSE=	GPLv2
 

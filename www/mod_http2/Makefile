@@ -1,5 +1,3 @@
-# Created by: Bernard Spil <brnrd@FreeBSD.org>
-
 PORTNAME=	mod_http2
 PORTVERSION=	2.0.2
 DISTVERSIONPREFIX=	v
@@ -8,6 +6,7 @@ PKGNAMEPREFIX=	${APACHE_PKGNAMEPREFIX}
 
 MAINTAINER=	brnrd@FreeBSD.org
 COMMENT=	HTTP/2 modules for Apache httpd
+WWW=		https://github.com/icing/mod_h2
 
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE

@@ -1,12 +1,12 @@
-# Created by: Po-Chuan Hsieh <sunpoet@FreeBSD.org>
-
 PORTNAME=	s2
 PORTVERSION=	0.10.0
 DISTVERSIONPREFIX=	v
+PORTREVISION=	2
 CATEGORIES=	graphics
 
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	S2 Geometry Library
+WWW=		https://s2geometry.io/
 
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE

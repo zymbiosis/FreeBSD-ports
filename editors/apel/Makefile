@@ -1,5 +1,3 @@
-# Created by: Shigeyuki FUKUSHIMA <shige@FreeBSD.org>
-
 PORTNAME=	apel
 PORTVERSION=	10.8.${SNAPDATE}
 PORTREVISION=	4
@@ -8,6 +6,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	nobutaka@FreeBSD.org
 COMMENT=	Portable Emacs Library
+WWW=		https://github.com/wanderlust/apel
 
 LICENSE=	GPLv2
 

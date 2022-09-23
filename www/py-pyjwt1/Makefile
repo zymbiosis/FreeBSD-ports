@@ -7,9 +7,13 @@ DISTNAME=	PyJWT-${PORTVERSION}
 
 MAINTAINER=	terje@elde.net
 COMMENT=	JSON Web Token implementation in Python
+WWW=		https://github.com/progrium/pyjwt
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
+
+DEPRECATED=	Depends on expired security/py-pycrypto
+EXPIRATION_DATE=2022-09-30
 
 # Some tests are skipped without pycrypto, but its not
 # referenced as a requirement anymore.

@@ -1,5 +1,3 @@
-# Created by: Mahdi Mokhtari <mokhi64@gmail.com>
-
 PORTNAME?=	mysql
 PORTVERSION=	5.7.38
 PORTREVISION?=	0
@@ -10,6 +8,7 @@ DISTNAME=	${PORTNAME}-boost-${PORTVERSION}
 
 MAINTAINER=	joneum@FreeBSD.org
 COMMENT?=	Multithreaded SQL database (server)
+WWW=		https://www.mysql.com/
 
 LICENSE=	GPLv2
 

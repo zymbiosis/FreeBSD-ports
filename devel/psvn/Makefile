@@ -1,5 +1,3 @@
-# Created by: Kimura Fuyuki <fuyuki@hadaly.org>
-
 PORTNAME=	psvn
 PORTVERSION=	20150720.214200
 PORTREVISION=	6
@@ -11,6 +9,7 @@ EXTRACT_SUFX=	# empty
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Subversion interface for Emacs
+WWW=		http://www.xsteve.at/prg/emacs/
 
 LICENSE=	GPLv2+
 

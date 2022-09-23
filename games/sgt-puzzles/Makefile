@@ -1,5 +1,5 @@
 PORTNAME=	puzzles
-PORTVERSION=	20220613
+PORTVERSION=	20220802
 CATEGORIES=	games
 MASTER_SITES=	https://www.chiark.greenend.org.uk/~sgtatham/puzzles/ \
 		https://mirror.amdmi3.ru/distfiles/
@@ -8,11 +8,12 @@ DISTNAME=	${PORTNAME}-${PORTVERSION}.${COMMITHASH}
 
 MAINTAINER=	amdmi3@FreeBSD.org
 COMMENT=	Simon Tatham's Portable Puzzle Collection
+WWW=		https://www.chiark.greenend.org.uk/~sgtatham/puzzles/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENCE
 
-COMMITHASH=	387d323
+COMMITHASH=	8399cff
 
 BUILD_DEPENDS=	convert:graphics/ImageMagick6-nox11
 

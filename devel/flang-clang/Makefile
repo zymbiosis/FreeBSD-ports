@@ -1,5 +1,3 @@
-# Created by: Johannes M Dieterich <jmd@FreeBSD.org>
-
 PORTNAME=	flang-clang
 DISTVERSION=	7.0-g20191020
 PORTREVISION=	2
@@ -7,11 +5,15 @@ CATEGORIES=	devel lang
 
 MAINTAINER=	jmd@FreeBSD.org
 COMMENT=	Fortran compiler targeting LLVM (modified clang part)
+WWW=		https://github.com/flang-compiler/flang-driver
 
 LICENSE=	LLVM
 LICENSE_NAME=	LLVM Release License
 LICENSE_FILE=	${WRKSRC}/LICENSE.TXT
 LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+
+DEPRECATED=	Very outdated and unsupported upstream, current version in tree is several years old and upstream is still active
+EXPIRATION_DATE=2022-09-30
 
 ONLY_FOR_ARCHS=	amd64
 

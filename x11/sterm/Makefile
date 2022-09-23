@@ -1,5 +1,3 @@
-# Created by: Matthew Donovan <kitchetech@gmail.com>
-
 PORTNAME=	sterm
 DISTVERSION=	0.8.5
 CATEGORIES=	x11
@@ -8,6 +6,7 @@ DISTNAME=	st-${PORTVERSION}
 
 MAINTAINER=	pkubaj@FreeBSD.org
 COMMENT=	Simple X terminal
+WWW=		https://st.suckless.org/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

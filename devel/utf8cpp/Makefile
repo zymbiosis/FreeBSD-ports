@@ -1,5 +1,3 @@
-# Created by: Keith Gaughan <k@stereochro.me>
-
 PORTNAME=	utf8cpp
 PORTVERSION=	3.1.2
 DISTVERSIONPREFIX=	v
@@ -7,6 +5,7 @@ CATEGORIES=	devel
 
 MAINTAINER=	k@stereochro.me
 COMMENT=	Simple, portable, lightweight library for handling UTF-8 strings
+WWW=		http://utfcpp.sourceforge.net/
 
 LICENSE=	BSL
 
@@ -14,6 +13,8 @@ USES=		cmake
 USE_GITHUB=	yes
 GH_ACCOUNT=	nemtrif
 GH_PROJECT=	utfcpp
+
+NO_ARCH=	yes
 
 PLIST_FILES=	include/utf8cpp/utf8.h \
 		include/utf8cpp/utf8/checked.h \

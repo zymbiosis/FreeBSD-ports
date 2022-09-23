@@ -8,6 +8,7 @@ PKGNAMESUFFIX?=		20
 
 MAINTAINER=		timur@FreeBSD.org
 COMMENT=		LDAP-like embedded database
+WWW=		https://ldb.samba.org/
 
 LICENSE=		GPLv3+
 
@@ -23,7 +24,7 @@ LDB_DEPENDS=		talloc>=2.2.0:devel/talloc \
 			cmocka>=1.1.3:sysutils/cmocka \
 			popt>=0:devel/popt
 
-CONFLICTS_INSTALL=	ldb-1.1.* ldb1[2-9]-1.* ldb2[1-9]-2.*
+CONFLICTS_INSTALL=	ldb[0-9][0-9] # include/ldb.h
 
 USES=			compiler pkgconfig waf
 USE_LDCONFIG=		yes

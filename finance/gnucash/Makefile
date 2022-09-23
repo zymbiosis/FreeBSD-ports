@@ -1,11 +1,12 @@
 PORTNAME=	gnucash
-PORTVERSION=	4.10
-PORTREVISION=	3
+PORTVERSION=	4.11
+PORTREVISION=	1
 CATEGORIES=	finance gnome
 MASTER_SITES=	SF/${PORTNAME}/${PORTNAME}%20%28stable%29/${PORTVERSION}
 
 MAINTAINER=	madpilot@FreeBSD.org
 COMMENT=	Quicken-like money and finance manager
+WWW=		https://www.gnucash.org/
 
 LICENSE=	GPLv2 GPLv3
 LICENSE_COMB=	dual
@@ -87,14 +88,6 @@ OFX_LIB_DEPENDS=	libofx.so:finance/libofx
 OFX_VARS=		GLIB_SCHEMAS+=org.gnucash.GnuCash.dialogs.import.ofx.gschema.xml
 PYTHON_CMAKE_BOOL=	WITH_PYTHON
 PYTHON_USES=		python:3.3+
-
-post-install:
-	@(cd ${STAGEDIR}${DATADIR}/icons/hicolor && \
-		${RMDIR} 16x16/apps 22x22/apps 22x22 24x24/apps 32x32/apps 32x32\
-		48x48/apps 48x48 64x64/apps 64x64 96x96/apps 96x96 \
-		128x128/apps 128x128 256x256/apps 256x256 scalable/apps scalable)
-	@(cd ${STAGEDIR}${PREFIX}/share/icons/hicolor && \
-		${RMDIR} 24x24/actions 16x16/actions)
 
 post-install-PYTHON-on:
 	@(cd ${STAGEDIR}${PREFIX} \

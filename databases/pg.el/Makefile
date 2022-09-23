@@ -6,6 +6,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	yasu@FreeBSD.org
 COMMENT=	PostgreSQL Elisp interface
+WWW=		https://github.com/cbbrowne/pg.el
 
 LICENSE=	GPLv2+
 
@@ -14,6 +15,8 @@ USES=		emacs
 USE_GITHUB=	yes
 GH_ACCOUNT=	cbbrowne
 GH_TAGNAME=	4f6516e
+
+CONFLICTS_INSTALL=	pg.el pg.el-emacs_* # share/doc/pg.el/README
 
 NO_ARCH=	yes
 

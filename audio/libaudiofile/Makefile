@@ -1,6 +1,3 @@
-# Created by: Vanilla I. Shu <vanilla@FreeBSD.org>
-#    $MCom: ports/trunk/audio/libaudiofile/Makefile 18610 2013-06-30 16:33:05Z marcus $
-
 PORTNAME=	libaudiofile
 PORTVERSION=	0.3.6
 PORTREVISION=	3
@@ -10,6 +7,7 @@ DISTNAME=	audiofile-${PORTVERSION}
 
 MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	Sound library for SGI audio file
+WWW=		https://www.68k.org/~michael/audiofile/
 
 LICENSE=	LGPL21
 

@@ -1,5 +1,3 @@
-# Created by: Stefan Bethke <stb@lassitu.de>
-
 PORTNAME=	sauserprefs
 PORTVERSION=	1.10 # PLEASE MIRROR DISTFILE WITH VERSIONED DIR
 PORTREVISION=	1
@@ -12,6 +10,7 @@ DISTNAME=	${PORTNAME}
 
 MAINTAINER=	stb@lassitu.de
 COMMENT=	Roundcube plugin to manage SpamAssassin prefs
+WWW=		http://www.tehinterweb.co.uk/roundcube/
 
 LICENSE=	GPLv3
 

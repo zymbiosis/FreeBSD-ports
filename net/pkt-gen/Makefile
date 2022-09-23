@@ -4,11 +4,9 @@ CATEGORIES=	net
 
 MAINTAINER=	olivier@FreeBSD.org
 COMMENT=	Packet sink/source using the netmap API
+WWW=		https://github.com/luigirizzo/netmap
 
 LICENSE=	BSD2CLAUSE
-
-NOT_FOR_ARCHS=	i386
-NOT_FOR_ARCHS_REASON=	Not supported on i386
 
 USES=		gmake
 USE_GITHUB=	yes

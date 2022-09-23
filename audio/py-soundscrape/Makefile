@@ -1,5 +1,3 @@
-# Created by: Carlos J. Puga Medina <cpm@FreeBSD.org>
-
 PORTNAME=	soundscrape
 PORTVERSION=	0.30.2
 PORTREVISION=	1
@@ -8,6 +6,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	SoundCloud downloader in python
+WWW=		https://github.com/Miserlou/SoundScrape
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

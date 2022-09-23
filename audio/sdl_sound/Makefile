@@ -1,5 +1,3 @@
-# Created by: David Yeske <dyeske@gmail.com>
-
 PORTNAME=	sdl_sound
 PORTVERSION=	1.0.3
 PORTREVISION=	15
@@ -9,6 +7,7 @@ DISTNAME=	SDL_sound-${PORTVERSION}
 
 MAINTAINER=	amdmi3@FreeBSD.org
 COMMENT=	SDL audio library and player for some popular sound file formats
+WWW=		https://www.icculus.org/SDL_sound/
 
 LICENSE=	LGPL21+
 LICENSE_FILE=	${WRKSRC}/COPYING

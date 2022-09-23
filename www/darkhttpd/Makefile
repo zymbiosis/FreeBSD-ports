@@ -1,12 +1,17 @@
 PORTNAME=	darkhttpd
-DISTVERSION=	1.13
 DISTVERSIONPREFIX=	v
+DISTVERSION=	1.13
 CATEGORIES=	www
 
 MAINTAINER=	henrichartzer@tuta.io
 COMMENT=	Simple, static web server
+WWW=		https://unix4lyfe.org/darkhttpd/
 
 LICENSE=	ISCL
+
+USES=		cpe
+
+CPE_VENDOR=	darkhttpd_project
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	emikulic

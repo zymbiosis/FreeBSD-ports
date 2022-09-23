@@ -1,5 +1,3 @@
-# Created by: Vasil Dimov <vd@FreeBSD.org>
-
 PORTNAME=	cppzmq
 PORTVERSION=	4.8.1
 DISTVERSIONPREFIX=	v
@@ -7,6 +5,7 @@ CATEGORIES=	net
 
 MAINTAINER=	vd@FreeBSD.org
 COMMENT=	C++ bindings for 0MQ
+WWW=		https://github.com/zeromq/cppzmq
 
 LICENSE=	MIT
 

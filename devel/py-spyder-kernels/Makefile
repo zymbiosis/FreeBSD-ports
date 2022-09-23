@@ -1,13 +1,12 @@
-# Created by: Rainer Hurling <rhurlin@gwdg.de>
-
 PORTNAME=	spyder-kernels
-PORTVERSION=	2.3.1
+PORTVERSION=	2.3.3
 CATEGORIES=	devel python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	rhurlin@FreeBSD.org
 COMMENT=	Jupyter kernels for the Spyder console
+WWW=		https://github.com/spyder-ide/spyder-kernels
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
@@ -19,7 +18,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 # other dependencies in the spyder universe), this port may misbehave in some
 # situations.
 # devel/py-ipykernel      should be >=6.9.2,<7, but is 5.5.6 (conflicts ...)
-# devel/py-jupyter-client should be >=7.3.1,<8, but is 6.1.12
+# devel/py-jupyter-client should be >=7.3.4,<8, but is 6.1.12
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cloudpickle>0:devel/py-cloudpickle@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}ipykernel5>0:devel/py-ipykernel5@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}ipyparallel>0:devel/py-ipyparallel@${PY_FLAVOR} \

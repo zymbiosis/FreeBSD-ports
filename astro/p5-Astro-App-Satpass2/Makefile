@@ -1,5 +1,3 @@
-# Created by: Wen Heping<wen@FreeBSD.org>
-
 PORTNAME=	Astro-App-Satpass2
 PORTVERSION=	0.049
 CATEGORIES=	astro perl5
@@ -8,6 +6,7 @@ PKGNAMEPREFIX=	p5-
 
 MAINTAINER=	wen@FreeBSD.org
 COMMENT=	Forecast satellite visibility
+WWW=		https://metacpan.org/release/Astro-App-Satpass2
 
 LICENSE=	ART10 GPLv1+
 LICENSE_COMB=	dual

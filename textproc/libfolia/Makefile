@@ -1,11 +1,12 @@
 PORTNAME=	libfolia
 DISTVERSIONPREFIX=	v
 DISTVERSION=	2.10
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	textproc
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Library for FoLiA, a format for annotated language resources
+WWW=		https://proycon.github.io/folia/
 
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/COPYING

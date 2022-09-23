@@ -1,5 +1,3 @@
-# Created by: Dmitry Sivachenko <demon@FreeBSD.org>
-
 PORTNAME=	puppet-mode.el
 PORTVERSION=	0.2
 PORTREVISION=	11
@@ -8,6 +6,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	demon@FreeBSD.org
 COMMENT=	Simple mode for editing puppet manifests
+WWW=		https://github.com/puppetlabs/puppet-syntax-emacs
 
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE

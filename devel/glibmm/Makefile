@@ -1,7 +1,5 @@
-# Created by: Adam Weinberger <adamw@FreeBSD.org>
-
 PORTNAME=	glibmm
-PORTVERSION=	2.66.2
+PORTVERSION=	2.66.4
 PORTEPOCH=	1
 CATEGORIES=	devel
 MASTER_SITES=	GNOME
@@ -9,6 +7,7 @@ DIST_SUBDIR=	gnome
 
 MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	C++ interfaces for glib2
+WWW=		https://www.gtkmm.org/
 
 LICENSE=	LGPL21
 

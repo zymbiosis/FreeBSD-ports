@@ -1,5 +1,3 @@
-# Created by: Yuri Victorovich <yuri@rawbw.com>
-
 PORTNAME=	python-djvulibre
 DISTVERSION=	0.8.7
 CATEGORIES=	graphics python
@@ -8,6 +6,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Python support for the DjVu image format
+WWW=		https://jwilk.net/software/python-djvulibre
 
 LICENSE=	GPLv2
 

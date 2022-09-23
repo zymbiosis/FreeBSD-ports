@@ -87,6 +87,9 @@
     SUBDIR += bacula11-client-static
     SUBDIR += bacula11-docs
     SUBDIR += bacula11-server
+    SUBDIR += bacula13-client
+    SUBDIR += bacula13-docs
+    SUBDIR += bacula13-server
     SUBDIR += bacula9-client
     SUBDIR += bacula9-client-static
     SUBDIR += bacula9-docs
@@ -126,6 +129,7 @@
     SUBDIR += bksh
     SUBDIR += bkt
     SUBDIR += boot-extract
+    SUBDIR += bottom
     SUBDIR += boxbackup-devel
     SUBDIR += bpytop
     SUBDIR += brasero
@@ -169,14 +173,14 @@
     SUBDIR += cfengine-devel
     SUBDIR += cfengine-masterfiles
     SUBDIR += cfengine-masterfiles-devel
-    SUBDIR += cfengine-masterfiles316
     SUBDIR += cfengine-masterfiles317
     SUBDIR += cfengine-masterfiles318
     SUBDIR += cfengine-masterfiles319
-    SUBDIR += cfengine316
+    SUBDIR += cfengine-masterfiles320
     SUBDIR += cfengine317
     SUBDIR += cfengine318
     SUBDIR += cfengine319
+    SUBDIR += cfengine320
     SUBDIR += chaoskube
     SUBDIR += checkrestart
     SUBDIR += chezmoi
@@ -350,6 +354,7 @@
     SUBDIR += f2
     SUBDIR += f3
     SUBDIR += facter
+    SUBDIR += fakertc
     SUBDIR += fand
     SUBDIR += fanout
     SUBDIR += fatback
@@ -372,7 +377,6 @@
     SUBDIR += finfo
     SUBDIR += firstboot-cloudsetup
     SUBDIR += firstboot-freebsd-update
-    SUBDIR += firstboot-growfs
     SUBDIR += firstboot-pkgs
     SUBDIR += flasher
     SUBDIR += flashrom
@@ -454,6 +458,7 @@
     SUBDIR += garcon
     SUBDIR += gather
     SUBDIR += gconf-editor
+    SUBDIR += gcp-ops-agent
     SUBDIR += gdisk
     SUBDIR += gdmap
     SUBDIR += gdu
@@ -470,7 +475,6 @@
     SUBDIR += gkrellm-trayicons
     SUBDIR += gkrellm2
     SUBDIR += gkrelltop
-    SUBDIR += gksu
     SUBDIR += glogg
     SUBDIR += glow
     SUBDIR += gnome-control-center
@@ -478,7 +482,6 @@
     SUBDIR += gnome-settings-daemon
     SUBDIR += gnome-system-monitor
     SUBDIR += gnome_subr
-    SUBDIR += go-btfs
     SUBDIR += go-wtf
     SUBDIR += goaccess
     SUBDIR += goawk
@@ -604,6 +607,7 @@
     SUBDIR += kio-fuse
     SUBDIR += kldfind
     SUBDIR += kldpatch
+    SUBDIR += kopia
     SUBDIR += kops
     SUBDIR += kpmcore
     SUBDIR += krename
@@ -628,7 +632,6 @@
     SUBDIR += libfvde
     SUBDIR += libg15
     SUBDIR += libg15render
-    SUBDIR += libgksu
     SUBDIR += libieee1284
     SUBDIR += libptytty
     SUBDIR += libretto-config
@@ -659,6 +662,7 @@
     SUBDIR += logstash-forwarder
     SUBDIR += logstash6
     SUBDIR += logstash7
+    SUBDIR += logstash8
     SUBDIR += logtool
     SUBDIR += logwatch
     SUBDIR += loki
@@ -728,7 +732,6 @@
     SUBDIR += memtester
     SUBDIR += metalog
     SUBDIR += mfid
-    SUBDIR += mgeupsd
     SUBDIR += minikube
     SUBDIR += minimunin
     SUBDIR += minipot
@@ -793,6 +796,7 @@
     SUBDIR += ncdu
     SUBDIR += ndmpd
     SUBDIR += neofetch
+    SUBDIR += nerdctl
     SUBDIR += netevent
     SUBDIR += nfcutils
     SUBDIR += nfs-over-tls
@@ -893,6 +897,7 @@
     SUBDIR += p5-Proclet
     SUBDIR += p5-Quota
     SUBDIR += p5-Rex
+    SUBDIR += p5-RundeckAPI
     SUBDIR += p5-Samba-SIDhelper
     SUBDIR += p5-Schedule-At
     SUBDIR += p5-Schedule-Cron
@@ -965,7 +970,6 @@
     SUBDIR += pefs-kmod
     SUBDIR += perp
     SUBDIR += personality
-    SUBDIR += pesign
     SUBDIR += pfetch
     SUBDIR += pflogx
     SUBDIR += pfstat
@@ -1056,6 +1060,7 @@
     SUBDIR += py-dlipower
     SUBDIR += py-docker
     SUBDIR += py-drmaa
+    SUBDIR += py-elf_diff
     SUBDIR += py-execnet
     SUBDIR += py-filelike
     SUBDIR += py-filelock
@@ -1065,10 +1070,12 @@
     SUBDIR += py-hared
     SUBDIR += py-hcloud
     SUBDIR += py-honcho
+    SUBDIR += py-howdoi
     SUBDIR += py-hpilo
     SUBDIR += py-iowait
     SUBDIR += py-ioztat
     SUBDIR += py-jailconf
+    SUBDIR += py-keep
     SUBDIR += py-leviathan
     SUBDIR += py-liquidctl
     SUBDIR += py-mitogen
@@ -1393,6 +1400,7 @@
     SUBDIR += tmux
     SUBDIR += tmux-mem-cpu-load
     SUBDIR += tmux23
+    SUBDIR += topgrade
     SUBDIR += topless
     SUBDIR += torque
     SUBDIR += toshctl
@@ -1519,6 +1527,7 @@
     SUBDIR += virtualmin
     SUBDIR += vivid
     SUBDIR += vm-bhyve
+    SUBDIR += vm-bhyve-devel
     SUBDIR += vmdktool
     SUBDIR += vmtouch
     SUBDIR += vobcopy
@@ -1531,6 +1540,7 @@
     SUBDIR += watchfolder
     SUBDIR += watchman
     SUBDIR += watchmen
+    SUBDIR += waynergy
     SUBDIR += webmin
     SUBDIR += weedit
     SUBDIR += wemux
@@ -1586,7 +1596,6 @@
     SUBDIR += xpipe
     SUBDIR += xstow
     SUBDIR += xsysstats
-    SUBDIR += xvidcap
     SUBDIR += yadf
     SUBDIR += yadm
     SUBDIR += yank

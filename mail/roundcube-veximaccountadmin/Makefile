@@ -1,5 +1,3 @@
-# Created by: Mark Felder <feld@FreeBSD.org>
-
 PORTNAME=	veximaccountadmin
 PORTVERSION=	0.1
 PORTREVISION=	2
@@ -11,6 +9,7 @@ DISTNAME=	rcube_plg_veximaccountadmin
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Roundcube vexim account admin plugin
+WWW=		http://axel.sjostedt.no/misc/dev/roundcube/
 
 LICENSE=	GPLv3
 

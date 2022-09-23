@@ -1,5 +1,3 @@
-# Created by: Dryice Liu <dryice@dryice.name>
-
 PORTNAME=	emms
 DISTVERSION=	5.0
 PORTREVISION=	8
@@ -9,6 +7,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Emacs Multi-Media System
+WWW=		https://www.gnu.org/software/emms/index.html
 
 LICENSE=	GPLv3
 

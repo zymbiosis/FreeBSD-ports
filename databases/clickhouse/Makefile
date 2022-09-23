@@ -1,5 +1,3 @@
-# Created by: proler@gmail.com
-
 PORTNAME=	clickhouse
 PORTVERSION=	22.1.3.7
 DISTVERSIONPREFIX=	v
@@ -8,6 +6,7 @@ CATEGORIES=	databases
 
 MAINTAINER=	olevole@olevole.ru
 COMMENT=	Fast open-source OLAP database management system
+WWW=		https://clickhouse.tech/
 
 LICENSE=	APACHE20
 
@@ -17,7 +16,8 @@ ONLY_FOR_ARCHS_REASON=	only supported on aarch64 and amd64
 BUILD_DEPENDS=	bash:shells/bash
 RUN_DEPENDS=	bash:shells/bash
 
-USES=		cmake cpe localbase python shebangfix
+USES=		cmake cpe localbase perl5 python shebangfix
+USE_PERL5=	build
 
 CPE_VENDOR=	yandex
 

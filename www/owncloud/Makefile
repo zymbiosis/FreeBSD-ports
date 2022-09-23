@@ -1,14 +1,13 @@
-# Created by: Kevin Lo <kevlo@FreeBSD.org>
-
 PORTNAME=	owncloud
-PORTVERSION=	10.9.1
+PORTVERSION=	10.10.0
 CATEGORIES=	www
-MASTER_SITES=	https://download.owncloud.org/community/ \
+MASTER_SITES=	https://download.owncloud.com/server/stable/ \
 		LOCAL/sunpoet
 PKGNAMESUFFIX=	${PHP_PKGNAMESUFFIX}
 
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	Personal cloud which runs on your own server
+WWW=		https://owncloud.com/
 
 LICENSE=	AGPLv3
 LICENSE_FILE=	${WRKSRC}/COPYING

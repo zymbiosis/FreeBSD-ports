@@ -1,10 +1,12 @@
 PORTNAME=	xNetHack
 DISTVERSIONPREFIX=	xnh
 DISTVERSION=	7.1
+PORTREVISION=	1
 CATEGORIES=	games
 
 MAINTAINER=	fuz@fuz.su
 COMMENT=	Experimental features and improvements applied to NetHack 3.7-dev
+WWW=		https://nethackwiki.com/wiki/XNetHack
 
 LICENSE=	nethack
 LICENSE_NAME=	NETHACK GENERAL PUBLIC LICENSE
@@ -39,7 +41,7 @@ GRAPHICS=	X11_GRAPHICS
 GRAPHICS=	# none
 .elif ${FLAVOR} == "qt"
 USES+=		localbase pkgconfig qt:5
-USE_QT=		buildtools_build core gui multimedia network widgets
+USE_QT=		buildtools:build core gui multimedia network widgets
 MAKE_ENV+=	MOCPATH=${MOC} LINK="${CXX} -pie"
 # Qt wants PIC for some reason.  For C code, PIE should be enough.
 CFLAGS+=	-I${QT_INCDIR} -fpie
@@ -49,7 +51,13 @@ GRAPHICS=	QT_GRAPHICS
 
 CFLAGS+=	-DNOMAIL -DCURSES_GRAPHICS
 
-OPTIONS_DEFINE=	DOCS
+# nhlua.c has a (patched out) version check for lua when the sandbox
+# is used.  As I cannot ascertain whether using the system's different
+# lua version could cause problems, I'll leave the sandbox disabled by
+# default.
+OPTIONS_DEFINE=	DOCS SANDBOX
+SANDBOX_DESC=	Run lua in a sandbox (untested)
+SANDBOX_CFLAGS=	-DNHL_SANDBOX
 
 .include <bsd.port.pre.mk>
 

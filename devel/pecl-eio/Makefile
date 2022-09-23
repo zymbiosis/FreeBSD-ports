@@ -1,11 +1,10 @@
-# Created by: Gasol Wu <gasol.wu@gmail.com>
-
 PORTNAME=	eio
 DISTVERSION=	2.0.4
 CATEGORIES=	devel
 
 MAINTAINER=	gasol.wu@gmail.com
 COMMENT=	Provides interface to the libeio library
+WWW=		https://pecl.php.net/package/eio
 
 LICENSE=	PHP301
 

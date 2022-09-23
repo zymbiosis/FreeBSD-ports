@@ -1,10 +1,11 @@
 PORTNAME=	wayland-protocols
-PORTVERSION=	1.25
+PORTVERSION=	1.26
 CATEGORIES=	graphics wayland
 MASTER_SITES=	https://wayland.freedesktop.org/releases/
 
 MAINTAINER=	x11@FreeBSD.org
 COMMENT=	Wayland protocols
+WWW=		https://wayland.freedesktop.org/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING

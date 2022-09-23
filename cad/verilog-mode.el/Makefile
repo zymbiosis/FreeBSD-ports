@@ -1,5 +1,3 @@
-# Created by: stas
-
 PORTNAME=	verilog-mode.el
 PORTVERSION=	801
 PORTREVISION=	13
@@ -11,6 +9,7 @@ EXTRACT_SUFX=	.gz
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Emacs lisp modules for the Verilog language
+WWW=		https://www.veripool.org/wiki/verilog-mode
 
 LICENSE=	GPLv3+
 

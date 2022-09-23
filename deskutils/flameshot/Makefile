@@ -1,5 +1,3 @@
-# Created by: Nicola Stanislao Vitale <nivit@FreeBSD.org>
-
 PORTNAME=	flameshot
 PORTVERSION=	11.0.0
 DISTVERSIONPREFIX=	v
@@ -7,6 +5,7 @@ CATEGORIES=	deskutils
 
 MAINTAINER=	nivit@FreeBSD.org
 COMMENT=	Powerful yet simple to use screenshot software
+WWW=		https://flameshot.org/
 
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -20,7 +19,7 @@ GH_ACCOUNT=	flameshot-org
 USE_GITHUB=	yes
 USE_GL=		gl
 USE_QT=		core dbus gui linguist network svg widgets \
-		buildtools_build
+		buildtools:build
 
 post-patch:
 	        @${REINPLACE_CMD} -e 's,$${CMAKE_INSTALL_FULL_BINDIR},${LOCALBASE}/bin,1' \

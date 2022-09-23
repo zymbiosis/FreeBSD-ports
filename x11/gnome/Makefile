@@ -1,11 +1,11 @@
-# Created by: Joe Marcus Clarke <marcus@FreeBSD.org>
-
 PORTNAME=	gnome
 PORTVERSION=	42
+PORTREVISION=	2
 CATEGORIES?=	x11 gnome
 
 MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	Metaport for the GNOME integrated X11 desktop
+WWW=		https://www.FreeBSD.org/gnome/
 
 FLAVORS=	full lite
 FLAVOR?=	full
@@ -62,10 +62,9 @@ RUN_DEPENDS+=	epiphany>=3.0.0:www/epiphany \
 		file-roller>=3.0.0:archivers/file-roller \
 		evince>=3.0.0:graphics/evince \
 		vino>=3.0.0:net/vino \
-		vinagre>=3.0.0:net/vinagre \
+		gnome-connections>=42:net/gnome-connections \
 		gnome-games>=3.0.0:games/gnome-games \
 		totem>=3.0.0:multimedia/totem \
-		gconf-editor>=3.0.0:sysutils/gconf-editor \
 		evolution>=3.0.0:mail/evolution \
 		cheese>=3.0.0:multimedia/cheese
 

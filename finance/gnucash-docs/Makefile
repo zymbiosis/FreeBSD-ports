@@ -1,13 +1,11 @@
-# Created by: Glenn Johnson <glennpj@charter.net>
-
 PORTNAME=	gnucash-docs
-DISTVERSION=	4.10.1
-PORTREVISION=	1
+PORTVERSION=	4.11
 CATEGORIES=	finance gnome
-MASTER_SITES=	SF/gnucash/gnucash%20%28stable%29/${PORTVERSION:R}
+MASTER_SITES=	SF/gnucash/gnucash%20%28stable%29/${PORTVERSION}
 
 MAINTAINER=	madpilot@FreeBSD.org
 COMMENT=	Documentation for gnucash
+WWW=		https://www.gnucash.org/
 
 BUILD_DEPENDS=	xsltproc:textproc/libxslt
 RUN_DEPENDS=	yelp:x11/yelp

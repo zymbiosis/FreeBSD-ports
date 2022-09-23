@@ -1,11 +1,10 @@
-# Created by: Pedro F. Giffuni
-
 PORTNAME=	dataplot
 DISTVERSION=	20200619
 CATEGORIES=	graphics
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Free software system for statistical visualization
+WWW=		https://www.itl.nist.gov/div898/software/dataplot/index.htm
 
 LICENSE=	PD
 

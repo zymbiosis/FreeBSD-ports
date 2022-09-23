@@ -1,5 +1,3 @@
-# Created by: Bartek Rutkowski <robak@FreeBSD.org>
-
 PORTNAME=	iocell
 PORTVERSION=	2.1.2
 DISTVERSIONPREFIX=v
@@ -11,6 +9,7 @@ PATCHFILES+=	37.patch:-p1 # https://github.com/bartekrutkowski/iocell/pull/37
 
 MAINTAINER=	robak@FreeBSD.org
 COMMENT=	Feature rich Jail containers manager (iocage fork)
+WWW=		https://github.com/bartekrutkowski/iocell
 
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE

@@ -1,5 +1,3 @@
-# Created by: David O'Brien (obrien@NUXI.com)
-
 PORTNAME=	nmap
 DISTVERSION=	7.91
 PORTREVISION=	3
@@ -9,6 +7,7 @@ MASTER_SITES=	https://nmap.org/dist/ \
 
 MAINTAINER?=	cy@FreeBSD.org
 COMMENT?=	Port scanning utility for large networks
+WWW=		https://nmap.org/
 
 # nmap-6.47 => svn.nmap.org/nmap-releases/nmap-6.47 (r33605)
 # https://nmap.org/book/man-legal.html

@@ -1,5 +1,3 @@
-# Created by: Evgeny Zhirnov <jirnov@gmail.com>
-
 PORTNAME=	archivemount
 DISTVERSION=	0.8.12
 PORTREVISION=	2
@@ -8,6 +6,7 @@ MASTER_SITES=	https://www.cybernoia.de/software/archivemount/
 
 MAINTAINER=	jirnov@gmail.com
 COMMENT=	Mount archives with FUSE
+WWW=		https://www.cybernoia.de/software/archivemount.html
 
 LICENSE=	LGPL20
 LICENSE_FILE=	${WRKSRC}/COPYING

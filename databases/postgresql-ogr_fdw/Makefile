@@ -1,11 +1,13 @@
 PORTNAME=	ogr_fdw
 DISTVERSIONPREFIX=	v
 DISTVERSION=	1.1.1
+PORTREVISION=	1
 CATEGORIES=	databases
 PKGNAMEPREFIX=	postgresql${PGSQL_VER:S/.//}-
 
 MAINTAINER=	lbartoletti@FreeBSD.org
 COMMENT=	PostgreSQL foreign data wrapper for OGR
+WWW=		https://github.com/pramsey/pgsql-ogr-fdw
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE.md

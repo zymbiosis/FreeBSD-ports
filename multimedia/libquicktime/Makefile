@@ -1,5 +1,3 @@
-# Created by: ijliao
-
 PORTNAME=	libquicktime
 PORTVERSION=	1.2.4
 PORTREVISION?=	32
@@ -8,6 +6,7 @@ MASTER_SITES=	SF
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Library for reading and writing quicktime files
+WWW=		http://libquicktime.sourceforge.net/
 
 .if !defined(_BUILDING_LIBQUICKTIME_PLUGINS)
 LIB_DEPENDS=	libvorbis.so:audio/libvorbis

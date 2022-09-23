@@ -1,5 +1,3 @@
-# Created by: Shigeyuki FUKUSHIMA <shige@FreeBSD.org>
-
 PORTNAME=	semi
 PORTVERSION=	${SEMI_VER}.${SNAPDATE}
 PORTREVISION=	3
@@ -8,6 +6,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	nobutaka@FreeBSD.org
 COMMENT=	SEMI, Library of MIME feature for GNU Emacs for emacs
+WWW=		https://github.com/wanderlust/semi
 
 LICENSE=	GPLv2
 

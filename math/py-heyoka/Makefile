@@ -1,12 +1,13 @@
 PORTNAME=	heyoka
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.18.0
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	math
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Python library for ODE integration via Taylor's method and LLVM
+WWW=		https://bluescarni.github.io/heyoka.py/
 
 LICENSE=	MPL20
 LICENSE_FILE=	${WRKSRC}/LICENSE

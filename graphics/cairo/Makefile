@@ -1,5 +1,3 @@
-# Created by: Michael Johnson <ahze@FreeBSD.org>
-
 PORTNAME=	cairo
 DISTVERSION=	1.17.4
 PORTREVISION=	1
@@ -13,6 +11,7 @@ PATCHFILES=	ebbaebdec12878836fc84d31c59ee324e67abc05.patch:-p1 # cairo-script-in
 
 MAINTAINER=	desktop@FreeBSD.org
 COMMENT=	Vector graphics library with cross-device output support
+WWW=		https://www.cairographics.org/
 
 LICENSE=	LGPL21 MPL11
 LICENSE_COMB=	dual

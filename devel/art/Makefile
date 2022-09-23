@@ -1,5 +1,3 @@
-# Created by: Vladimir Gorelov <virtual.lark@gmail.com>
-
 PORTNAME=	art
 PORTVERSION=	0.9.02
 CATEGORIES=	devel
@@ -8,6 +6,7 @@ MASTER_SITES=	http://skylark.tsu.ru/art/0.9/download/src/ \
 
 MAINTAINER=	virtual.lark@gmail.com
 COMMENT=	Resource tracing, debugging, and profiling tool
+WWW=		http://skylark.tsu.ru/art/index-en.html
 
 LICENSE=	GPLv3
 

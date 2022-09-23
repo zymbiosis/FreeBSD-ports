@@ -1,5 +1,3 @@
-# Created by: Alexander Logvinov <avl@FreeBSD.org>
-
 PORTNAME=	gobject-introspection
 DISTVERSION=	1.72.0
 PORTREVISION=	1
@@ -10,6 +8,7 @@ DIST_SUBDIR=	gnome
 
 MAINTAINER=	desktop@FreeBSD.org
 COMMENT=	Generate interface introspection data for GObject libraries
+WWW=		https://gi.readthedocs.io/en/latest/
 
 LICENSE=	GPLv2+ LGPL20+
 LICENSE_COMB=	multi

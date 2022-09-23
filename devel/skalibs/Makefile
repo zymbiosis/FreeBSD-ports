@@ -1,12 +1,11 @@
-# Created by: Sergei Kolobov <sergei@kolobov.com>
-
 PORTNAME=	skalibs
-PORTVERSION=	2.10.0.3
+PORTVERSION=	2.12.0.1
 CATEGORIES=	devel
 MASTER_SITES=	https://www.skarnet.org/software/${PORTNAME}/
 
 MAINTAINER=	crest@rlwinm.de
 COMMENT=	General purpose C libraries used by skarnet.org software
+WWW=		https://www.skarnet.org/software/skalibs/
 
 LICENSE=	ISCL
 LICENSE_FILE=	${WRKSRC}/COPYING
@@ -29,7 +28,7 @@ post-install:
 post-install-DOCS-on:
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}
 	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS} ${STAGEDIR}${DOCSDIR}
-.for d in libbiguint libdatastruct librandom libstdcrypto libstddjb libunixonacid
+.for d in libdatastruct libposixplz librandom libstdcrypto libstddjb libunixonacid
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}/${d}
 	cd ${WRKSRC} && ${INSTALL_DATA} doc/${d}/*.html ${STAGEDIR}${DOCSDIR}/${d}
 .endfor

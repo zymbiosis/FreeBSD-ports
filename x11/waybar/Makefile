@@ -1,12 +1,13 @@
 PORTNAME=	waybar
 DISTVERSION=	0.9.13
-CATEGORIES=	x11
+CATEGORIES=	x11 wayland
 
 PATCH_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/commit/
 PATCHFILES+=	d25278f710a4.patch:-p1 # https://github.com/Alexays/Waybar/pull/1567
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Highly customizable Wayland bar for Sway and wlroots-based compositors
+WWW=		https://github.com/Alexays/Waybar
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -19,6 +20,11 @@ LIB_DEPENDS=	libdate-tz.so:devel/date \
 		libwayland-client.so:graphics/wayland \
 		libxkbregistry.so:x11/libxkbcommon
 TEST_DEPENDS=	catch>0:devel/catch
+
+FLAVORS=	default nopulse
+default_CONFLICTS_INSTALL=	${PORTNAME}-nopulse
+nopulse_CONFLICTS_INSTALL=	${PORTNAME}
+nopulse_PKGNAMESUFFIX=		-nopulse
 
 USES=		compiler:c++17-lang gnome meson pkgconfig
 USE_GITHUB=	yes
@@ -37,6 +43,9 @@ SUB_FILES+=	date.pc
 
 OPTIONS_DEFINE=	DBUS EVDEV GLS ICONSFONT MANPAGES MPD PULSEAUDIO SNDIO UDEV UPOWER
 OPTIONS_DEFAULT=DBUS EVDEV GLS ICONSFONT MANPAGES MPD PULSEAUDIO SNDIO UDEV UPOWER
+.if ${FLAVOR:U} == nopulse
+OPTIONS_EXCLUDE=PULSEAUDIO
+.endif
 
 DBUS_LIB_DEPENDS=	libdbusmenu-gtk3.so:devel/libdbusmenu
 DBUS_MESON_ENABLED=	dbusmenu-gtk

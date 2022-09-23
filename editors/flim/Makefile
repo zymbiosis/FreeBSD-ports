@@ -1,5 +1,3 @@
-# Created by: Shigeyuki FUKUSHIMA <shige@FreeBSD.org>
-
 PORTNAME=	flim
 PORTVERSION=	1.14.9.${SNAPDATE}
 PORTREVISION=	3
@@ -9,6 +7,7 @@ PKGNAMESUFFIX=	${EMACS_PKGNAMESUFFIX}
 
 MAINTAINER=	nobutaka@FreeBSD.org
 COMMENT=	Message representation or encoding elisp library for emacs
+WWW=		https://github.com/wanderlust/flim
 
 LICENSE=	GPLv2
 

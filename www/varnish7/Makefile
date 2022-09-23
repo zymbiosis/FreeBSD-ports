@@ -1,11 +1,12 @@
 PORTNAME=	varnish
-DISTVERSION=	7.1.0
+DISTVERSION=	7.1.1
 DISTVERSIONPREFIX=	varnish-
 CATEGORIES=	www
 PKGNAMESUFFIX=	7
 
 MAINTAINER=	dbaio@FreeBSD.org
 COMMENT=	High-performance HTTP accelerator
+WWW=		https://varnish-cache.org/
 
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -21,6 +22,7 @@ CONFLICTS=	varnish4 varnish6
 
 SHEBANG_FILES=	lib/libvcc/*.py lib/libvsc/*.py
 CPE_VENDOR=	varnish-cache
+CPE_PRODUCT=	varnish_cache
 CFLAGS+=	-I${LOCALBASE}/include
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--localstatedir=${PREFIX} --without-dot

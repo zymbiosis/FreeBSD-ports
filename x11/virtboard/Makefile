@@ -2,7 +2,7 @@ PORTNAME=	virtboard
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.0.6
 PORTREVISION=	1
-CATEGORIES=	x11
+CATEGORIES=	x11 wayland
 
 PATCH_SITES=	${GL_SITE}/jbeich/${GL_PROJECT}/-/commit/
 PATCHFILES+=	42e698964e42.patch:-p1 # https://source.puri.sm/Librem5/virtboard/-/merge_requests/35
@@ -11,6 +11,7 @@ PATCHFILES+=	2d30762e546b.patch:-p1 # https://source.puri.sm/Librem5/virtboard/-
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Basic keyboard, blazing the path of modern Wayland keyboards
+WWW=		https://source.puri.sm/Librem5/virtboard
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING

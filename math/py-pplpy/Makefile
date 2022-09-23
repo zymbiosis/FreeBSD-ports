@@ -1,5 +1,3 @@
-# Created by: thierry@pompo.net
-
 PORTNAME=	pplpy
 PORTVERSION=	0.8.7
 PORTREVISION=	2
@@ -9,6 +7,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	thierry@FreeBSD.org
 COMMENT=	Python wrapper to the C++ Parma Polyhedra Library (PPL)
+WWW=		https://www.labri.fr/perso/vdelecro/pplpy/latest/
 
 LICENSE=	GPLv3
 

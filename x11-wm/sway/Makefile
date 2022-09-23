@@ -1,6 +1,6 @@
 PORTNAME=	sway
 DISTVERSION=	1.7
-CATEGORIES=	x11-wm
+CATEGORIES=	x11-wm wayland
 
 PATCH_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/commit/
 PATCHFILES+=	cd9d1038a822.patch:-p1 # https://github.com/swaywm/sway/pull/5090
@@ -8,6 +8,7 @@ PATCHFILES+=	f98ca3ab7ca1.patch:-p1 # https://github.com/swaywm/sway/pull/5090
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	i3-compatible Wayland compositor
+WWW=		https://swaywm.org/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -24,6 +25,8 @@ LIB_DEPENDS=	libjson-c.so:devel/json-c \
 		libinput.so:x11/libinput \
 		libxkbcommon.so:x11/libxkbcommon
 RUN_DEPENDS=	swaybg:x11/swaybg
+
+CONFLICTS_INSTALL=	${PORTNAME}-devel
 
 USES=		compiler:c11 gl gnome meson pkgconfig xorg
 USE_GITHUB=	yes

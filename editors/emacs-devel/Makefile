@@ -1,13 +1,12 @@
-# Created by: Kenneth Vestergaard Schmidt <kvs@pil.dk>
-
 PORTNAME=	emacs
-DISTVERSION=	29.0.50.20220615
+DISTVERSION=	29.0.50.20220831
 PORTEPOCH=	2
 CATEGORIES=	editors
 PKGNAMESUFFIX=	-devel
 
 MAINTAINER=	emacs@FreeBSD.org
 COMMENT=	GNU editing macros ${COMMENT_${FLAVOR}}
+WWW=		https://www.gnu.org/software/emacs/
 COMMENT_nox=	(No X flavor)
 
 LICENSE=	GPLv3+
@@ -25,7 +24,7 @@ USES=		autoreconf:build cpe gmake localbase:ldflags ncurses pkgconfig
 CPE_VENDOR=	gnu
 USE_GITHUB=	yes
 GH_ACCOUNT=	emacs-mirror
-GH_TAGNAME=	a29e0f1
+GH_TAGNAME=	136495f
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--disable-build-details \

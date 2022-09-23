@@ -1,13 +1,12 @@
-# Created by: Kubilay Kocak <koobs@FreeBSD.org>
-
 PORTNAME=	bleach
-PORTVERSION=	5.0.0
+PORTVERSION=	5.0.1
 CATEGORIES=	www python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	Easy safelist-based HTML-sanitizing tool
+WWW=		https://github.com/mozilla/bleach
 
 LICENSE=	APACHE20
 

@@ -1,3 +1,5 @@
-TIMESTAMP = 1654672107
-SHA256 (KDE/release-service/22.04.2/marble-22.04.2.tar.xz) = a4332e10d26b24ecd07560fa2d877b1f0cce6e50010bbc36ef98e02acc68dfda
-SIZE (KDE/release-service/22.04.2/marble-22.04.2.tar.xz) = 53677556
+TIMESTAMP = 1662480051
+SHA256 (KDE/release-service/22.08.1/marble-22.08.1.tar.xz) = 90b603d5c6d8aba728fab94e599c5788702110bae7f418dd5ad909b9dcd6c3e7
+SIZE (KDE/release-service/22.08.1/marble-22.08.1.tar.xz) = 53663748
+SHA256 (KDE/release-service/22.08.1/677153cc8c1450a8a370fbd1c7505dd7e4ea50fc.diff) = 97b3e42d94091d0d7ba07f7ec1718e386080e613a8d051ed9872c2f012fa0820
+SIZE (KDE/release-service/22.08.1/677153cc8c1450a8a370fbd1c7505dd7e4ea50fc.diff) = 4767

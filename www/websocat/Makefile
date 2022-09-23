@@ -1,13 +1,12 @@
-# Created by: Sergey A. Osokin <osa@FreeBSD.org>
-
 PORTNAME=	websocat
 DISTVERSIONPREFIX=	v
 DISTVERSION=	1.10.1
-PORTREVISION=	1
+PORTREVISION=	3
 CATEGORIES=	www
 
 MAINTAINER=	osa@FreeBSD.org
 COMMENT=	WebSockets tools
+WWW=		https://github.com/vi/websocat
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

@@ -2,10 +2,11 @@ PORTNAME=	gnome-initial-setup
 PORTVERSION=	42.2
 CATEGORIES=	deskutils gnome
 MASTER_SITES=	GNOME/sources/${PORTNAME}/${PORTVERSION:C/^([0-9]+)\..*/\1/}
-DIST_SUBDIR=	gnome3
+DIST_SUBDIR=	gnome
 
 MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	First boot setup tool for GNOME
+WWW=		https://live.gnome.org/GnomeOS/Design/Whiteboards/InitialSetup
 
 LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/COPYING

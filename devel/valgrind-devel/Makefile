@@ -1,5 +1,3 @@
-# Created by: Simon Barner <barner@gmx.de>
-
 PORTNAME=	valgrind
 PORTVERSION=	3.20.0.g20220612
 DISTVERSIONPREFIX=	freebsd-
@@ -9,6 +7,7 @@ PKGNAMESUFFIX=	-devel
 
 MAINTAINER=	pjfloyd@wanadoo.fr
 COMMENT=	Memory debugging and profiling tool
+WWW=		https://www.valgrind.org/
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING

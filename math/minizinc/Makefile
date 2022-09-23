@@ -1,9 +1,10 @@
 PORTNAME=	minizinc
-DISTVERSION=	2.6.3
+DISTVERSION=	2.6.4
 CATEGORIES=	math lang
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Constraint modeling language
+WWW=		https://www.minizinc.org/
 
 LICENSE=	MPL20
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt

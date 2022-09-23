@@ -1,5 +1,3 @@
-# Created by: Bernhard Froehlich <decke@bluelife.at>
-
 PORTNAME=	virtualbox-ose
 PORTVERSION=	5.2.44
 PORTREVISION=	11
@@ -11,6 +9,7 @@ EXTRACT_ONLY=	VirtualBox-${PORTVERSION}${EXTRACT_SUFX}
 
 MAINTAINER=	vbox@FreeBSD.org
 COMMENT=	General-purpose full virtualizer for x86 hardware
+WWW=		https://www.virtualbox.org/
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
@@ -159,7 +158,7 @@ CONFIGURE_ARGS+=	--enable-qt5
 PLIST_SUB+=	QT=""
 USES+=		gl qmake:no_env qt:5 xorg
 USE_GL=		gl glu
-USE_QT=		buildtools_build core dbus gui linguisttools_build opengl
+USE_QT=		buildtools:build core dbus gui linguisttools:build opengl
 USE_QT+=	printsupport widgets x11extras
 USE_XORG=	xcb
 VBOX_PROGS+=	VirtualBox
@@ -206,8 +205,12 @@ KMK_FLAGS+=	-j${MAKE_JOBS_NUMBER}
 
 .include <bsd.port.pre.mk>
 
-.if ${OPSYS} == FreeBSD && ${OSVERSION} >= 1400059
+.if ${OPSYS} == FreeBSD
+.if ${OSVERSION} >= 1400059
 BROKEN=		Fails to compile with libc++ 14.0.3
+.elif ${OSVERSION} >= 1301000 && ${OSVERSION} < 1400000
+BROKEN=		Fails to compile: error: ran out of registers during register allocation
+.endif
 .endif
 
 .if ${CHOSEN_COMPILER_TYPE} == clang && ${OPSYS} == FreeBSD && ${OSVERSION} > 1400022

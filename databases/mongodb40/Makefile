@@ -10,6 +10,7 @@ DISTNAME=	mongodb-src-${DISTVERSIONPREFIX}${DISTVERSION}
 
 MAINTAINER=	dev.ashevchuk@gmail.com
 COMMENT=	Distributed document-oriented "NoSQL" database (4.0.x Branch)
+WWW=		https://docs.mongodb.com/v4.0/
 
 LICENSE=	SSPLv1 APACHE20
 LICENSE_COMB=	multi
@@ -30,7 +31,7 @@ LIB_DEPENDS=	libpcre.so:devel/pcre \
 USES=		compiler:c++14-lang cpe python:3.7+,build scons shebangfix
 USE_RC_SUBR=	mongod
 
-CONFLICTS_INSTALL=	mongodb36 mongodb4[24] mongodb50
+CONFLICTS_INSTALL=	mongodb[0-9][0-9] # etc/mongodb.conf.sample
 
 SHEBANG_FILES=	src/mongo/installer/compass/install_compass
 python_OLD_CMD=	@python_interpreter@

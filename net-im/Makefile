@@ -14,6 +14,7 @@
     SUBDIR += cutegram
     SUBDIR += dendrite
     SUBDIR += dino
+    SUBDIR += discordo
     SUBDIR += echat
     SUBDIR += ejabberd
     SUBDIR += farstream
@@ -67,6 +68,7 @@
     SUBDIR += libsignon-glib
     SUBDIR += libstrophe
     SUBDIR += loudmouth
+    SUBDIR += lurch
     SUBDIR += matterbridge
     SUBDIR += matterhorn
     SUBDIR += matterircd
@@ -126,7 +128,6 @@
     SUBDIR += py-punjab
     SUBDIR += py-python-telegram-bot
     SUBDIR += py-slack-sdk
-    SUBDIR += py-slackclient
     SUBDIR += py-slixmpp
     SUBDIR += py-telepot
     SUBDIR += py-toxcore-c

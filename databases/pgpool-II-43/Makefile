@@ -1,11 +1,12 @@
 PORTNAME=	pgpool-II
-PORTVERSION=	4.3.2
+PORTVERSION=	4.3.3
 CATEGORIES=	databases
 MASTER_SITES=	http://www.pgpool.net/mediawiki/images/
 PKGNAMESUFFIX=	-43
 
 MAINTAINER=	bofh@FreeBSD.org
 COMMENT=	Connection pool server for PostgreSQL (4.3.X branch)
+WWW=		https://pgpool.net/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
@@ -16,7 +17,7 @@ USE_RC_SUBR=	pgpool
 
 GNU_CONFIGURE=	yes
 
-CONFLICTS=	pgpool-II
+CONFLICTS_INSTALL=	pgpool-II-[0-9][0-9] pgpool-II[0-9][0-9] # etc/escalation.sh.sample etc/failover.sh.sample etc/pcp.conf.sample
 
 PORTSCOUT=	limit:^4.3.[0-9]*
 

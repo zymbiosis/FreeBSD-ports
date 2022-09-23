@@ -1,9 +1,10 @@
 PORTNAME=	arcan
-DISTVERSION=	0.6.1.1
+DISTVERSION=	0.6.2
 CATEGORIES=	multimedia
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Display Server, Multimedia Framework, Game Engine
+WWW=		https://arcan-fe.com/
 
 LICENSE=	BSD3CLAUSE GPLv2+ LGPL21+
 LICENSE_COMB=	multi
@@ -33,9 +34,7 @@ OPTIONS_DEFINE=	ESPEAK FFMPEG LUAJIT MANPAGES SDL SUID TESSERACT UVC VLC VNC WAY
 OPTIONS_DEFAULT=ESPEAK FFMPEG LUAJIT MANPAGES SDL SUID TESSERACT UVC VLC VNC WAYLAND
 OPTIONS_SUB=	yes
 
-ESPEAK_DESC=		Text to speech via eSpeak
-ESPEAK_LIB_DEPENDS=	libespeak.so:audio/espeak
-
+ESPEAK_LIB_DEPENDS=	libespeak-ng.so:audio/espeak-ng
 FFMPEG_LIB_DEPENDS=	libavcodec.so:multimedia/ffmpeg
 
 MANPAGES_USE=		RUBY=yes

@@ -1,13 +1,12 @@
-# Created by: Athanasios Douitsis <aduitsis@cpan.org>
-
 PORTNAME=	pushgateway
 DISTVERSIONPREFIX=	v
 DISTVERSION=	1.4.2
-PORTREVISION=	2
+PORTREVISION=	5
 CATEGORIES=	net-mgmt
 
 MAINTAINER=	0xdutra@gmail.com
 COMMENT=	Prometheus push acceptor for ephemeral and batch jobs
+WWW=		https://github.com/prometheus/pushgateway
 
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE

@@ -1,11 +1,12 @@
 PORTNAME=	moltemplate
-DISTVERSION=	2.20.5
+DISTVERSION=	2.20.6
 CATEGORIES=	science python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Tool to prepare simulations of molecules, complex molecular assemblies
+WWW=		https://www.moltemplate.org/
 
 LICENSE=	MIT
 

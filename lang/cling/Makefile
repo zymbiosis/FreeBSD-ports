@@ -1,14 +1,13 @@
-# Created by: Mahdi Mokhtari <mokhi64@gmail.com>
-
 PORTNAME=		cling
 DISTVERSION=		0.5-2018-08-13
-PORTREVISION=		9
+PORTREVISION=	11
 CATEGORIES=		lang devel
 MASTER_SITES=		https://root.cern.ch/download/cling/
 DISTNAME=		${PORTNAME}_${DISTVERSION:C/^[0-9]\.[0-9]-//}_sources
 
 MAINTAINER=		ports@FreeBSD.org
 COMMENT=		Interactive C++ Interpreter Based on LLVM and Clang Libs
+WWW=		https://root.cern.ch/cling
 
 LICENSE=		LLVM NCSA
 LICENSE_COMB=		multi

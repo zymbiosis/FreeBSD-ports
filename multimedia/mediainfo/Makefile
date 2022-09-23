@@ -1,7 +1,5 @@
-# Created by: freebsd-ports@evilcode.net
-
 PORTNAME=	mediainfo
-PORTVERSION=	22.03
+PORTVERSION=	22.06
 CATEGORIES=	multimedia
 MASTER_SITES=	https://mediaarea.net/download/binary/mediainfo/${PORTVERSION}/ \
 		LOCAL/sunpoet
@@ -9,6 +7,7 @@ DISTNAME=	MediaInfo_CLI_${PORTVERSION}_GNU_FromSource
 
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	Provides technical and tag information for video and audio files
+WWW=		https://mediaarea.net/en/MediaInfo
 
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/../../../License.html

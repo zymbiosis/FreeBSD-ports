@@ -54,17 +54,7 @@
     SUBDIR += dbview
     SUBDIR += duckdb
     SUBDIR += ejdb
-    SUBDIR += elixir-calecto
-    SUBDIR += elixir-db_connection
-    SUBDIR += elixir-ecto
-    SUBDIR += elixir-geo
-    SUBDIR += elixir-mariaex
-    SUBDIR += elixir-postgrex
-    SUBDIR += elixir-timex_ecto
     SUBDIR += emacsql
-    SUBDIR += erlang-couchbeam
-    SUBDIR += erlang-epgsql
-    SUBDIR += erlang-eredis
     SUBDIR += erlfdb
     SUBDIR += evolution-data-server
     SUBDIR += fastdb
@@ -139,7 +129,6 @@
     SUBDIR += libdrizzle
     SUBDIR += libdrizzle-redux
     SUBDIR += libgda5
-    SUBDIR += libgda5-bdb
     SUBDIR += libgda5-jdbc
     SUBDIR += libgda5-ldap
     SUBDIR += libgda5-mdb
@@ -202,6 +191,7 @@
     SUBDIR += mongodb42-tools
     SUBDIR += mongodb44
     SUBDIR += mongodb50
+    SUBDIR += mongodb60
     SUBDIR += mroonga
     SUBDIR += mtop
     SUBDIR += mydumper
@@ -214,8 +204,6 @@
     SUBDIR += mysql-q4m
     SUBDIR += mysql-udf
     SUBDIR += mysql2pgsql
-    SUBDIR += mysql55-client
-    SUBDIR += mysql55-server
     SUBDIR += mysql56-client
     SUBDIR += mysql56-server
     SUBDIR += mysql57-client
@@ -560,11 +548,10 @@
     SUBDIR += pecl-rrd
     SUBDIR += percona-pam-for-mysql
     SUBDIR += percona-toolkit
-    SUBDIR += percona56-client
-    SUBDIR += percona56-server
     SUBDIR += percona57-client
     SUBDIR += percona57-pam-for-mysql
     SUBDIR += percona57-server
+    SUBDIR += pg-gvm
     SUBDIR += pg.el
     SUBDIR += pgFormatter
     SUBDIR += pg_activity
@@ -581,6 +568,7 @@
     SUBDIR += pg_tileserv
     SUBDIR += pgaccess
     SUBDIR += pgadmin3
+    SUBDIR += pgagroal
     SUBDIR += pgbackrest
     SUBDIR += pgbadger
     SUBDIR += pgbarman
@@ -591,7 +579,6 @@
     SUBDIR += pglogical
     SUBDIR += pgmetrics
     SUBDIR += pgmodeler
-    SUBDIR += pgpool-II-36
     SUBDIR += pgpool-II-37
     SUBDIR += pgpool-II-40
     SUBDIR += pgpool-II-41
@@ -847,6 +834,9 @@
     SUBDIR += py-sqlalchemy12
     SUBDIR += py-sqlalchemy13
     SUBDIR += py-sqlalchemy14
+    SUBDIR += py-sqlglot
+    SUBDIR += py-sqlite-fts4
+    SUBDIR += py-sqlite-utils
     SUBDIR += py-sqlite3
     SUBDIR += py-sqlobject
     SUBDIR += py-sqlparse
@@ -997,7 +987,12 @@
     SUBDIR += rubygem-redis-actionpack-rails60
     SUBDIR += rubygem-redis-actionpack-rails61
     SUBDIR += rubygem-redis-actionpack52-rails61
+    SUBDIR += rubygem-redis-client
+    SUBDIR += rubygem-redis-cluster-client
+    SUBDIR += rubygem-redis-clustering
     SUBDIR += rubygem-redis-namespace
+    SUBDIR += rubygem-redis-namespace18
+    SUBDIR += rubygem-redis4
     SUBDIR += rubygem-redis44
     SUBDIR += rubygem-sdbm
     SUBDIR += rubygem-seed-fu

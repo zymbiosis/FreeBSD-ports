@@ -1,5 +1,3 @@
-# Created by: Michael Johnson <ahze@FreeBSD.org>
-
 PORTNAME=	twolame
 PORTVERSION=	0.4.0
 PORTREVISION=	1
@@ -9,6 +7,7 @@ MASTER_SITES=	SF \
 
 MAINTAINER=	multimedia@FreeBSD.org
 COMMENT=	MPEG Audio Layer 2 encoder
+WWW=		http://twolame.sf.net/
 
 LIB_DEPENDS=	libsndfile.so:audio/libsndfile \
 		libFLAC.so:audio/flac \

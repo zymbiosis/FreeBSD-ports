@@ -1,11 +1,12 @@
 PORTNAME=	flask-smorest
-PORTVERSION=	0.38.0
+PORTVERSION=	0.38.1
 CATEGORIES=	www devel python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	meka@tilda.center
 COMMENT=	Flask/Marshmallow-based REST API framework
+WWW=		https://github.com/marshmallow-code/flask-smorest
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

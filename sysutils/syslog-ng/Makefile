@@ -1,12 +1,11 @@
-# Created by: Ivan Lago <ivan.lago@ifom-ieo-campus.it>
-
 PORTNAME=	syslog-ng
-DISTVERSION=	3.36.1
+DISTVERSION=	3.38.1
 CATEGORIES=	sysutils
 MASTER_SITES=	https://github.com/balabit/syslog-ng/releases/download/syslog-ng-${DISTVERSION}/
 
 MAINTAINER=	cy@FreeBSD.org
 COMMENT=	Powerful syslogd replacement
+WWW=		https://www.syslog-ng.org/
 
 LICENSE=	GPLv2+ LGPL21+
 LICENSE_COMB=	multi
@@ -145,8 +144,8 @@ JAVA_MOD_PLIST_FILES=		lib/syslog-ng/java-modules/log4j-api-2.17.2.jar \
 				lib/syslog-ng/java-modules/http.jar \
 				lib/syslog-ng/java-modules/syslog-ng-common.jar
 
-PYTHON_USES=			python:3.5+ 
-PYTHON_CONFIGURE_ON=		--enable-python 
+PYTHON_USES=			python:3.5+
+PYTHON_CONFIGURE_ON=		--enable-python
 PYTHON_CONFIGURE_OFF=		--disable-python
 PYTHON_PLIST_FILES=		lib/syslog-ng/libmod-python.so \
 		lib/syslog-ng/python/syslogng-1.0-py%%PYTHON_VER%%.egg-info \
@@ -199,7 +198,7 @@ CURL_PLIST_FILES=		lib/syslog-ng/libhttp.so \
 
 RIEMANN_CONFIGURE_ON=		--enable-riemann
 RIEMANN_CONFIGURE_OFF=		--disable-riemann
-RIEMANN_LIB_DEPENDS=		libriemann-client.so:net-mgmt/riemann-c-client
+RIEMANN_LIB_DEPENDS=		libriemann-client-gnutls.so:net-mgmt/riemann-c-client
 RIEMANN_PLIST_FILES=		lib/syslog-ng/libriemann.so
 
 KAFKA_CONFIGURE_ON=		--enable-kafka

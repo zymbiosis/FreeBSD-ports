@@ -1,5 +1,3 @@
-# Created by: olgeni@FreeBSD.org
-
 PORTNAME=	shared-mime-info
 DISTVERSION=	2.2
 PORTREVISION=	1
@@ -7,6 +5,7 @@ CATEGORIES=	misc gnome
 
 MAINTAINER=	desktop@FreeBSD.org
 COMMENT=	MIME types database from the freedesktop.org project
+WWW=		https://www.freedesktop.org/wiki/Software/shared-mime-info/
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING

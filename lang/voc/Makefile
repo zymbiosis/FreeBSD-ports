@@ -1,10 +1,11 @@
 PORTNAME=	voc
 DISTVERSIONPREFIX=	v
-DISTVERSION=	2.1.1
+DISTVERSION=	2.1.2
 CATEGORIES=	lang
 
 MAINTAINER=	antranigv@freebsd.am
 COMMENT=	Vishap Oberon Compiler for Oberon-2
+WWW=		https://github.com/vishaps/voc/
 
 LICENSE=	GPLv3
 
@@ -16,10 +17,9 @@ GH_PROJECT=	voc
 
 USE_LDCONFIG=	${PREFIX}/share/voc/lib
 
-MAKEFILE=	makefile
-ALL_TARGET=	full
-
+MAKEFILE=		makefile
 MAKE_JOBS_UNSAFE=	yes
+ALL_TARGET=		full
 
 post-patch:
 	# we cannot run ldconfig (which is what addlibrary does) on the destination

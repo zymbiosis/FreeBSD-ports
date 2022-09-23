@@ -1,5 +1,3 @@
-# Created by: asami
-
 PORTNAME=	piewm
 PORTVERSION=	1.04
 PORTREVISION=	4
@@ -8,6 +6,7 @@ MASTER_SITES=	http://www.catwhisker.org/~david/FreeBSD/distfiles/ LOCAL/dhw
 
 MAINTAINER=	david@catwhisker.org
 COMMENT=	tvtwm with pie (circular) menus
+WWW=		http://www.crynwr.com/piewm/
 
 USES=		imake xorg
 DISABLE_SIZE=	yes

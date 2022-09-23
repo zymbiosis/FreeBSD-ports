@@ -1,10 +1,12 @@
 PORTNAME=	hikari
 DISTVERSION=	2.3.3
-CATEGORIES=	x11-wm
+PORTREVISION=	1
+CATEGORIES=	x11-wm wayland
 MASTER_SITES=	https://hikari.acmelabs.space/releases/
 
 MAINTAINER=	ashish@FreeBSD.org
 COMMENT=	Stacking Wayland compositor with tiling capabilities
+WWW=		https://hikari.acmelabs.space
 
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE

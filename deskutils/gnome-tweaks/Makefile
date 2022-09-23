@@ -1,16 +1,11 @@
-# Created by: Jeremy Messenger <mezz@FreeBSD.org>
-
 PORTNAME=	gnome-tweaks
-PORTVERSION=	40.0
-PORTREVISION=	3
+PORTVERSION=	40.10
 CATEGORIES=	deskutils gnome
 MASTER_SITES=	GNOME/sources/${PORTNAME}/${PORTVERSION:C/^([0-9]+)\..*/\1/}
 
-PATCH_SITES=	https://gitlab.gnome.org/GNOME/${PORTNAME}/-/commit/
-PATCHFILES+=	56f39dc7d04a.patch:-p1 # https://gitlab.gnome.org/GNOME/gnome-tweaks/-/merge_requests/86
-
 MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	Allows to tweak some hidden settings in GNOME3
+WWW=		https://gitlab.gnome.org/GNOME/gnome-tweaks
 
 LICENSE=	CC0-1.0 GPLv3+
 LICENSE_COMB=	multi

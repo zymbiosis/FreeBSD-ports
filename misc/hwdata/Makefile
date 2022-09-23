@@ -1,13 +1,12 @@
-# Created by: Ting-Wei Lan <lantw44@gmail.com>
-
 PORTNAME=	hwdata
 DISTVERSIONPREFIX=	v
-DISTVERSION=	0.360
+DISTVERSION=	0.362
 PORTEPOCH=	1
 CATEGORIES=	misc
 
 MAINTAINER=	desktop@FreeBSD.org
 COMMENT=	Database of IDs used in PCI, PNP and USB devices
+WWW=		https://github.com/vcrhonek/hwdata
 
 LICENSE=	GPLv2+ MIT
 LICENSE_COMB=	dual

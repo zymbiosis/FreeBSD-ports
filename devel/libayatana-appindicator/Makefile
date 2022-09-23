@@ -1,9 +1,11 @@
 PORTNAME=	libayatana-appindicator
 PORTVERSION=	0.5.91
+PORTREVISION=	2
 CATEGORIES=	devel
 
 MAINTAINER=	jgh@FreeBSD.org
 COMMENT=	Ayatana Application Indicators Shared Library
+WWW=		https://github.com/AyatanaIndicators/libayatana-appindicator
 
 LICENSE=	LGPL3
 

@@ -1,5 +1,3 @@
-# Created by: Tod McQuillin <devin@spamcop.net>
-
 PORTNAME=	Image-ExifTool
 PORTVERSION=	12.14
 CATEGORIES=	graphics perl5
@@ -9,6 +7,7 @@ PKGNAMESUFFIX=	-devel
 
 MAINTAINER=	linpct@gmail.com
 COMMENT=	Perl module for getting EXIF data from image files
+WWW=		https://exiftool.org/
 
 LICENSE=	ART10 GPLv1+
 LICENSE_COMB=	dual

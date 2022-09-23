@@ -1,13 +1,12 @@
-# Created by: Alexander V. Chernikov <melifaro@FreeBSD.org>
-
 PORTNAME=	bird
-DISTVERSION=	2.0.9
+DISTVERSION=	2.0.10
 CATEGORIES=	net
 MASTER_SITES=	https://bird.network.cz/download/
 PKGNAMESUFFIX=	2
 
 MAINTAINER=	olivier@FreeBSD.org
 COMMENT=	Dynamic IP routing daemon
+WWW=		https://bird.network.cz/
 
 LICENSE=	GPLv2
 

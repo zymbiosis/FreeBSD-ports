@@ -1,5 +1,3 @@
-# Created by: stb
-
 PORTNAME=	netatalk
 PORTVERSION=	3.1.13
 PORTREVISION=	2
@@ -10,6 +8,7 @@ PKGNAMESUFFIX=	3
 
 MAINTAINER=	marcus@FreeBSD.org
 COMMENT=	File server for Mac OS X
+WWW=		http://netatalk.sourceforge.net/
 
 LICENSE=	GPLv2
 

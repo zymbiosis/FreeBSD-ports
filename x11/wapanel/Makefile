@@ -1,9 +1,10 @@
 PORTNAME=	wapanel
 DISTVERSION=	1.1.0
-CATEGORIES=	x11
+CATEGORIES=	x11 wayland
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Desktop bar for Wayfire and other wlroots compositors
+WWW=		https://firstbober.github.io/wapanel/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

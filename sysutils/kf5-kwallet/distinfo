@@ -1,3 +1,5 @@
-TIMESTAMP = 1654981250
-SHA256 (KDE/frameworks/5.95.0/kwallet-5.95.0.tar.xz) = 2dcf2bbee473795055bcb11d9f7e717c77c9f827aa21fbd0c11cf64fbc2d65be
-SIZE (KDE/frameworks/5.95.0/kwallet-5.95.0.tar.xz) = 307480
+TIMESTAMP = 1660729337
+SHA256 (KDE/frameworks/5.97.0/kwallet-5.97.0.tar.xz) = ab9b78b0c6aba461de6247974b7e60239cd2a52a1c2c6d67b92e466c7597d821
+SIZE (KDE/frameworks/5.97.0/kwallet-5.97.0.tar.xz) = 331172
+SHA256 (KDE/frameworks/5.97.0/ac77d25dcf9eb5832ebdf9301041682547d2b4cf.diff) = 9d1d7794edbaa4d14a4b82973c9cf695e774dda960d09c234f7ee64dd1c4ea11
+SIZE (KDE/frameworks/5.97.0/ac77d25dcf9eb5832ebdf9301041682547d2b4cf.diff) = 473

@@ -1,11 +1,10 @@
-# Created by: Ying-Chieh Liao <ijliao@FreeBSD.org>
-
 PORTNAME=	jsmin
 PORTVERSION=	20130329
 CATEGORIES=	devel
 
 MAINTAINER=	madpilot@FreeBSD.org
 COMMENT=	The JavaScript Minifier
+WWW=		https://crockford.com/javascript/jsmin.html
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	douglascrockford

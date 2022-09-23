@@ -1,5 +1,3 @@
-# Created by: Devaux Fabien <fab@gcu.info>
-
 PORTNAME=	jpegoptim
 PORTVERSION=	1.4.7
 DISTVERSIONPREFIX=	v
@@ -7,6 +5,7 @@ CATEGORIES=	graphics
 
 MAINTAINER=	ehaupt@FreeBSD.org
 COMMENT=	Utility to optimize jpeg files
+WWW=		http://www.kokkonen.net/tjko/projects.html #jpegoptim
 
 LICENSE=	GPLv2 GPLv3
 LICENSE_COMB=	dual

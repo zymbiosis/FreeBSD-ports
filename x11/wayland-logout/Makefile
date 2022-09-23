@@ -1,10 +1,11 @@
 PORTNAME=	wayland-logout
 DISTVERSIONPREFIX=	v
 DISTVERSION=	1.4
-CATEGORIES=	x11
+CATEGORIES=	x11 wayland
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Simple logout on Wayland
+WWW=		https://github.com/soreau/wayland-logout
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

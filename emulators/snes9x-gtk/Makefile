@@ -1,5 +1,3 @@
-# Created by: okeeblow <root@cooltrainer.org>
-
 PORTNAME=	snes9x
 PORTVERSION=	1.54.1
 PORTREVISION=	8
@@ -8,6 +6,7 @@ PKGNAMESUFFIX=	-gtk
 
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Super Nintendo Entertainment System (SNES) Emulator
+WWW=		https://github.com/snes9xgit/snes9x
 
 # Commercial users must seek permission from copyright holders.
 LICENSE=	Snes9x

@@ -1,5 +1,3 @@
-# Created by: Edson Brandi <ebrandi@fugspbr.org>
-
 PORTNAME=	dar
 PORTVERSION=	2.5.14
 PORTREVISION=	3
@@ -9,6 +7,7 @@ MASTER_SITES=	SF
 
 MAINTAINER=	bofh@FreeBSD.org
 COMMENT=	Command-line backup tool, aimed for disks
+WWW=		http://dar.linux.free.fr/
 
 LICENSE=	GPLv2+
 
